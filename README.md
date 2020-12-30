@@ -30,3 +30,31 @@
 
 
 그 외 의견 언제든지 공유해주세요😁
+
+## 발표 논문 리스트
+
+###Image: Segmentation / Object Detection
+
+You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
+Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
+Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al. [pdf]
+Fast R-CNN (2015), R. Girshick [pdf]
+
+###Convolutional Neural Network Models
+
+Inception-v4, inception-resnet and the impact of residual connections on learning (2016), C. Szegedy et al. [pdf]
+Identity Mappings in Deep Residual Networks (2016), K. He et al. [pdf]
+Deep residual learning for image recognition (2016), K. He et al. [pdf]
+
+###Optimization / Training Techniques
+
+Dropout: A simple way to prevent neural networks from overfitting (2014), N. Srivastava et al. [pdf]
+Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba [pdf]
+
+###Natural Language Proecessing
+
+
+## 참고할만한 사이트들
+
+https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
+
