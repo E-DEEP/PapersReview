@@ -57,4 +57,5 @@ Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba [pdf]
 ## 참고할만한 사이트들
 
 https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
+https://deeplearn.org/
 
