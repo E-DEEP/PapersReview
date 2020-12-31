@@ -57,17 +57,17 @@ Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba [pdf]
 ### Natural Language Proecessing
 
 - Word Embeddings
-1. NPLM
-2. Word2Vec
-3. FastText
-4. GloVe
-5. Swivel
+1. NPLM : A Neural Probabilistic Language Model, 2003 (https://papers.nips.cc/paper/2000/file/728f206c2a01bf572b5940d7d9a8fa4c-Paper.pdf)
+2. Word2Vec : Efficient Estimation of Word Representations in Vector Space (https://arxiv.org/abs/1301.3781)
+3. FastText : Enriching Word Vectors with Subword Information (https://arxiv.org/abs/1607.04606v2)
+4. GloVe : GloVe: Global Vectors for Word Representation (https://www.aclweb.org/anthology/D14-1162.pdf)
+5. Swivel : Swivel: Improving Embeddings by Noticing What's Missing (https://arxiv.org/abs/1602.02215)
 
 - Sentence Embeddings
-1. Doc2Vec
-2. ELMo
-3. Transformer
-4. BERT
+1. Doc2Vec : Distributed Representations of Sentences and Documents (https://arxiv.org/abs/1405.4053)
+2. ELMo : Deep contextualized word representations (https://arxiv.org/abs/1802.05365)
+3. Transformer : Attention Is All You Need (https://arxiv.org/abs/1706.03762)
+4. BERT : BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (https://arxiv.org/abs/1810.04805)
 
 
 ## 참고할만한 사이트들
