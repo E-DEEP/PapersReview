@@ -56,6 +56,19 @@ Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba [pdf]
 
 ### Natural Language Proecessing
 
+- Word Embeddings
+1. NPLM
+2. Word2Vec
+3. FastText
+4. GloVe
+5. Swivel
+
+- Sentence Embeddings
+1. Doc2Vec
+2. ELMo
+3. Transformer
+4. BERT
+
 
 ## 참고할만한 사이트들
 
