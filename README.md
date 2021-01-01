@@ -38,21 +38,21 @@
 
 ### Image: Segmentation / Object Detection
 
-You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
-Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
-Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al. [pdf]
-Fast R-CNN (2015), R. Girshick [pdf]
+1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
+2. Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
+3. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al. [pdf]
+4. Fast R-CNN (2015), R. Girshick [pdf]
 
 ### Convolutional Neural Network Models
 
-Inception-v4, inception-resnet and the impact of residual connections on learning (2016), C. Szegedy et al. [pdf]
-Identity Mappings in Deep Residual Networks (2016), K. He et al. [pdf]
-Deep residual learning for image recognition (2016), K. He et al. [pdf]
+1. Inception-v4, inception-resnet and the impact of residual connections on learning (2016), C. Szegedy et al. [pdf]
+2. Identity Mappings in Deep Residual Networks (2016), K. He et al. [pdf]
+3. Deep residual learning for image recognition (2016), K. He et al. [pdf]
 
 ### Optimization / Training Techniques
 
-Dropout: A simple way to prevent neural networks from overfitting (2014), N. Srivastava et al. [pdf]
-Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba [pdf]
+1. Dropout: A simple way to prevent neural networks from overfitting (2014), N. Srivastava et al. [pdf]
+2. Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba [pdf]
 
 ### Natural Language Proecessing
 
