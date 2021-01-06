@@ -35,7 +35,7 @@ Multi-head attention
 - scaled-dot product 계산시 한번에 계산하지 않고 h번으로 나누어서 계산
 - 벡터들의 크기를 줄이고 병렬처리 가능
 
-Position-wise feed-forward networkds
+Position-wise feed-forward networks
 - fully-connected layer
 - ReLU 사용
 
