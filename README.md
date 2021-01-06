@@ -69,6 +69,13 @@
 3. Transformer : Attention Is All You Need (https://arxiv.org/abs/1706.03762)
 4. BERT : BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (https://arxiv.org/abs/1810.04805)
 
+### Generative Adversarial Networks(GAN)
+1. GAN : Generative Adversarial Networks (https://arxiv.org/abs/1406.2661)
+2. DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks (https://arxiv.org/abs/1511.06434)
+3. CycleGAN : Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (https://arxiv.org/abs/1703.10593)
+4. StyleGAN : A Style-Based Generator Architecture for Generative Adversarial Networks (https://arxiv.org/abs/1812.04948)
+5. StarGAN : StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation (https://arxiv.org/abs/1711.09020)
+
 
 ## 참고할만한 사이트들
 
