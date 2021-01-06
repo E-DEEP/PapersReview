@@ -73,6 +73,11 @@
 3. Transformer : Attention Is All You Need (https://arxiv.org/abs/1706.03762)
 4. BERT : BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (https://arxiv.org/abs/1810.04805)
 
+Language Models
+1. GPT: Improving language understanding by generative pre-training (https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
+2. GPT-2: Language models are unsupervised multitask learners (https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+3. GPT-3: Language Models are Few-Shot Learners (https://arxiv.org/abs/2005.14165)
+
 ### Generative Adversarial Networks(GAN)
 1. GAN : Generative Adversarial Networks (https://arxiv.org/abs/1406.2661)
 2. DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks (https://arxiv.org/abs/1511.06434)
