@@ -50,5 +50,5 @@ encoder-decoder 구조
 
 
 ### 참고
-- 1. https://wikidocs.net/31379
-- 2. https://hipgyung.tistory.com/12
+1. https://wikidocs.net/31379
+2. https://hipgyung.tistory.com/12
