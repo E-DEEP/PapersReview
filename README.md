@@ -36,12 +36,16 @@
 
 ## 발표 논문 리스트
 
-### Image: Segmentation / Object Detection
+### Image
 
+- Segmentation / Object Detection
 1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
 2. Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
 3. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al. [pdf]
 4. Fast R-CNN (2015), R. Girshick [pdf]
+
+- Image-to-Image Translation
+1. U-gat-it: unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation (2019) Kim, J et al. (https://arxiv.org/pdf/1907.10830)
 
 ### Convolutional Neural Network Models
 
