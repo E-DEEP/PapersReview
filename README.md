@@ -59,8 +59,6 @@
 
 ### Optimization / Training Techniques
 
-1. Dropout: A simple way to prevent neural networks from overfitting (2014), N. Srivastava et al. [pdf]
-2. Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba [pdf]
 
 ### Natural Language Proecessing
 
