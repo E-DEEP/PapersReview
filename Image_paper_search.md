@@ -21,13 +21,14 @@
 4. Fast R-CNN (2015), R. Girshick [[paper]]
 5. YOLO9000: Better, Faster, Stronger (Yolov2) [[paper]](https://arxiv.org/pdf/1612.08242.pdf)
 
-#### Generative Adversarial Networks
+#### Image generation
 1. GAN : Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1406.2661)
 2. cGAN: Conditional Generative Adversarial Nets [[paper]](http://cn.arxiv.org/pdf/1411.1784)
 3. DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1511.06434)
 4. DRAW: A recurrent neural network for image generation (2015). [[paper]](http://jmlr.org/proceedings/papers/v37/gregor15.pdf) (VAE with attention)
 5. Self-Attention Generative Adversarial Networks [[paper]](https://arxiv.org/pdf/1805.08318.pdf)
 6. ProgressiveGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation. in ICLR 2018 [[pdf]](https://arxiv.org/pdf/1710.10196.pdf)
+7. Variational Auto Encoder : Auto-Encoding Variational Bayes. [[paper]](https://arxiv.org/pdf/1312.6114.pdf)
 
 #### Image to Image Translation
 1. Pix2Pix : Image-to-image translation with conditional adversarial networks [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf)
