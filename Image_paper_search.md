@@ -48,4 +48,4 @@
 3. StyleGAN : A Style-Based Generator Architecture for Generative Adversarial Networks (https://arxiv.org/abs/1812.04948)
 4. StarGAN : Stargan: Unified generative adversarial networks for multi-domain image-to-image translation (https://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf)
 5. StarGAN v2 : Stargan v2: Diverse image synthesis for multiple domains (https://openaccess.thecvf.com/content_CVPR_2020/papers/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.pdf)
-6. U-GAT-IT : unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation (https://arxiv.org/pdf/1907.10830)
+6. U-GAT-IT : unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation [paper](https://arxiv.org/pdf/1907.10830)
