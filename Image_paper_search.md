@@ -19,6 +19,7 @@
 2. Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
 3. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al. [pdf]
 4. Fast R-CNN (2015), R. Girshick [pdf]
+5. YOLO9000: Better, Faster, Stronger (Yolov2) [pdf](https://arxiv.org/pdf/1612.08242.pdf)
 
 #### Generative Adversarial Networks
 1. GAN : Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1406.2661)
