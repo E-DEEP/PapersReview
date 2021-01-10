@@ -12,6 +12,7 @@
 8. ShuffleNet : An Extremely Efficient Convolutional Neural Network for Mobile Devices [[paper]](http://cn.arxiv.org/pdf/1707.01083v2)
 9. MobileNets : MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [[paper]](http://cn.arxiv.org/pdf/1704.04861v1)
 10. SENet : Squeeze-and-Excitation Networks [[paper]](http://cn.arxiv.org/pdf/1709.01507)
+11. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [pdf](https://arxiv.org/pdf/1905.11946.pdf)
 
 #### Segmentation / Object Detection
 1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
@@ -32,6 +33,8 @@
 4. StarGAN : Stargan: Unified generative adversarial networks for multi-domain image-to-image translation [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf)
 5. StarGAN v2 : Stargan v2: Diverse image synthesis for multiple domains [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.pdf)
 6. U-GAT-IT : unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation [[paper]](https://arxiv.org/pdf/1907.10830)
+7. Self-Attention Generative Adversarial Networks [[paper]](https://arxiv.org/pdf/1805.08318.pdf)
+
 
 #### One Shot Learning
 1. **Siamese Neural Networks for One-shot Image Recognition**."(2015) [[pdf]](http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf)
