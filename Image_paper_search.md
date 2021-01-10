@@ -5,7 +5,7 @@
 1. LeNet : Gradient-based learning applied to document recognition [[paper]](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
 2. AlexNet: ImageNet Classification with Deep Convolutional Neural Networks [[paper]](https://dl.acm.org/doi/pdf/10.1145/3065386)
 3. VGGNet : Very Deep Convolutional Networks for Large-Scale Image Recognition [[paper]](http://cn.arxiv.org/pdf/1409.1556v6)
-4. GoogLeNet :Going deeper with convolutions [[paper]](http://cn.arxiv.org/pdf/1409.4842v1)
+4. GoogLeNet : Going deeper with convolutions [[paper]](http://cn.arxiv.org/pdf/1409.4842v1)
 5. ResNet : Deep Residual Learning for Image Recognition [[paper]](http://cn.arxiv.org/pdf/1512.03385v1)
 6. Inception-v : Inception-ResNet and the Impact of Residual Connections on Learning [[paper]](http://cn.arxiv.org/pdf/1602.07261v2)
 7. Xception : Deep Learning with Depthwise Separable Convolutions [[paper]](http://cn.arxiv.org/pdf/1610.02357v3)
