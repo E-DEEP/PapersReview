@@ -74,5 +74,9 @@
 1. **MixMatch: A Holistic Approach to Semi-supervised Learning.** in NIPS, 2019. [[pdf]](https://arxiv.org/abs/1905.02249)
 2. **Transfer Learning via Minimizing the Performance Gap Between Domains.** in NIPS, 2019. [[pdf]](https://papers.nips.cc/paper/2019/file/c66dd00e5fc44ba8de89d7713fedcd50-Paper.pdf)
 
+
+### Others(ex. optimization...)
+
+1. CatBoost: unbiased boosting with categorical features. [[pdf]](https://arxiv.org/pdf/1706.09516.pdf)
 ### References
 1. https://github.com/MingtaoGuo/Summary-of-deep-learning-papers
