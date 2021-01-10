@@ -13,23 +13,6 @@
 9. MobileNets : MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [[paper]](http://cn.arxiv.org/pdf/1704.04861v1)
 10. SENet : Squeeze-and-Excitation Networks [[paper]](http://cn.arxiv.org/pdf/1709.01507)
 
-#### Normalization
-1. Batch Normalization : Accelerating Deep Network Training by Reducing Internal Covariate Shift [[paper]](http://cn.arxiv.org/pdf/1502.03167v3)
-2. Instance Normalization : The Missing Ingredient for Fast Stylization [[paper]](http://cn.arxiv.org/pdf/1607.08022v3)
-3. Layer Normalization [[paper]](https://arxiv.org/pdf/1607.06450v1.pdf)
-4. Group Normalization [[paper]](https://arxiv.org/pdf/1803.08494.pdf)
-5. Switchable Normalization : Differentiable Learning-to-Normalize via Switchable Normalization [[paper]](https://arxiv.org/pdf/1806.10779.pdf)
-6. Instance-Batch Normalization : Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net [[paper]](https://arxiv.org/pdf/1807.09441.pdf)
-
-#### Activation Functions
-1. ReLU : Rectified linear units improve restricted boltzmann machines [[paper]](http://www.cs.utoronto.ca/~hinton/absps/reluICML.pdf)
-2. Leaky ReLU : Rectifier Nonlinearities Improve Neural Network Acoustic Models [[paper]](http://robotics.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf)
-3. eLU : Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs) [[paper]](http://cn.arxiv.org/pdf/1511.07289v5)
-4. SeLU : Self-Normalizing Neural Networks [[paper]](http://cn.arxiv.org/pdf/1706.02515)
-5. PReLU : Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification [[paper]](http://cn.arxiv.org/pdf/1502.01852v1)
-6. Maxout : Maxout Networks [[paper]](http://cn.arxiv.org/pdf/1302.4389v4)
-7. Swish : Searching for Activation Functions [[paper]](https://arxiv.org/pdf/1710.05941.pdf)
-
 #### Segmentation / Object Detection
 1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
 2. Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
