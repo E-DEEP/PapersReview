@@ -54,6 +54,8 @@
 3. **Learning to segment object candidates.** In: NIPS. 2015. [[pdf]](https://arxiv.org/pdf/1506.06204v2.pdf) 
 4. **Learning to segment object candidates.**  In: NIPS. 2015. [[pdf]](https://arxiv.org/pdf/1506.06204v2.pdf)
 5. **Instance-aware semantic segmentation via multi-task network cascades**. in CVPR. 2016 [[pdf]](https://arxiv.org/pdf/1512.04412v1.pdf)
+6. **HIERARCHICAL MULTI-SCALE ATTENTION FOR SEMANTIC SEGMENTATION**. 2020 [[pdf]](https://arxiv.org/pdf/2005.10821v1.pdf)
+
 
 #### Unsupervised Data Augmentation
 
