@@ -2,34 +2,33 @@
 
 
 #### Image Classification
-1. LeNet : Gradient-based learning applied to document recognition
-2. AlexNet: ImageNet Classification with Deep Convolutional Neural Networks
-3. VGGNet : Very Deep Convolutional Networks for Large-Scale Image Recognition
-4. GoogLeNet :Going deeper with convolutions
-5. ResNet : Deep Residual Learning for Image Recognition
-6. Inception-v : Inception-ResNet and the Impact of Residual Connections on Learning
-7. Xception : Deep Learning with Depthwise Separable Convolutions
-8. ShuffleNet : An Extremely Efficient Convolutional Neural Network for Mobile Devices
-9. MobileNets : MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
-10. SENet : Squeeze-and-Excitation Networks
+1. LeNet : Gradient-based learning applied to document recognition [[paper]](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
+2. AlexNet: ImageNet Classification with Deep Convolutional Neural Networks [[paper]](https://dl.acm.org/doi/pdf/10.1145/3065386)
+3. VGGNet : Very Deep Convolutional Networks for Large-Scale Image Recognition [[paper]](http://cn.arxiv.org/pdf/1409.1556v6)
+4. GoogLeNet :Going deeper with convolutions [[paper]](http://cn.arxiv.org/pdf/1409.4842v1)
+5. ResNet : Deep Residual Learning for Image Recognition [[paper]](http://cn.arxiv.org/pdf/1512.03385v1)
+6. Inception-v : Inception-ResNet and the Impact of Residual Connections on Learning [[paper]](http://cn.arxiv.org/pdf/1602.07261v2)
+7. Xception : Deep Learning with Depthwise Separable Convolutions [[paper]](http://cn.arxiv.org/pdf/1610.02357v3)
+8. ShuffleNet : An Extremely Efficient Convolutional Neural Network for Mobile Devices [[paper]](http://cn.arxiv.org/pdf/1707.01083v2)
+9. MobileNets : MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [[paper]](http://cn.arxiv.org/pdf/1704.04861v1)
+10. SENet : Squeeze-and-Excitation Networks [[paper]](http://cn.arxiv.org/pdf/1709.01507)
 
 #### Normalization
-1. Batch Normalization : Accelerating Deep Network Training by Reducing Internal Covariate Shift
-2. Instance Normalization : The Missing Ingredient for Fast Stylization
-3. Layer Normalization
-4. Group Normalization
-5. Switchable Normalization : Differentiable Learning-to-Normalize via Switchable Normalization
-6. Instance-Batch Normalization : Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net
+1. Batch Normalization : Accelerating Deep Network Training by Reducing Internal Covariate Shift [[paper]](http://cn.arxiv.org/pdf/1502.03167v3)
+2. Instance Normalization : The Missing Ingredient for Fast Stylization [[paper]](http://cn.arxiv.org/pdf/1607.08022v3)
+3. Layer Normalization [[paper]](https://arxiv.org/pdf/1607.06450v1.pdf)
+4. Group Normalization [[paper]](https://arxiv.org/pdf/1803.08494.pdf)
+5. Switchable Normalization : Differentiable Learning-to-Normalize via Switchable Normalization [[paper]](https://arxiv.org/pdf/1806.10779.pdf)
+6. Instance-Batch Normalization : Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net [[paper]](https://arxiv.org/pdf/1807.09441.pdf)
 
 #### Activation Functions
-1. ReLU : Rectified linear units improve restricted boltzmann machines
-2. Noisy ReLU : Deep Belief Networks on CIFAR-10
-3. Leaky ReLU : Rectifier Nonlinearities Improve Neural Network Acoustic Models
-4. eLU : Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
-5. SeLU : Self-Normalizing Neural Networks
-6. PReLU : Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
-7. Maxout : Maxout Networks
-8. Swish : Searching for Activation Functions
+1. ReLU : Rectified linear units improve restricted boltzmann machines [[paper]](http://www.cs.utoronto.ca/~hinton/absps/reluICML.pdf)
+2. Leaky ReLU : Rectifier Nonlinearities Improve Neural Network Acoustic Models [[paper]](http://robotics.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf)
+3. eLU : Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs) [[paper]](http://cn.arxiv.org/pdf/1511.07289v5)
+4. SeLU : Self-Normalizing Neural Networks [[paper]](http://cn.arxiv.org/pdf/1706.02515)
+5. PReLU : Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification [[paper]](http://cn.arxiv.org/pdf/1502.01852v1)
+6. Maxout : Maxout Networks [[paper]](http://cn.arxiv.org/pdf/1302.4389v4)
+7. Swish : Searching for Activation Functions [[paper]](https://arxiv.org/pdf/1710.05941.pdf)
 
 #### Segmentation / Object Detection
 1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
@@ -39,7 +38,7 @@
 
 #### Generative Adversarial Networks
 1. GAN : Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1406.2661)
-2. cGAN: Conditional Generative Adversarial Nets
+2. cGAN: Conditional Generative Adversarial Nets [[paper]](http://cn.arxiv.org/pdf/1411.1784)
 3. DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1511.06434)
 
 #### Image to Image Translation
@@ -49,3 +48,7 @@
 4. StarGAN : Stargan: Unified generative adversarial networks for multi-domain image-to-image translation [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf)
 5. StarGAN v2 : Stargan v2: Diverse image synthesis for multiple domains [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.pdf)
 6. U-GAT-IT : unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation [[paper]](https://arxiv.org/pdf/1907.10830)
+
+
+### References
+1. https://github.com/MingtaoGuo/Summary-of-deep-learning-papers
