@@ -12,20 +12,20 @@
 8. ShuffleNet : An Extremely Efficient Convolutional Neural Network for Mobile Devices [[paper]](http://cn.arxiv.org/pdf/1707.01083v2)
 9. MobileNets : MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [[paper]](http://cn.arxiv.org/pdf/1704.04861v1)
 10. SENet : Squeeze-and-Excitation Networks [[paper]](http://cn.arxiv.org/pdf/1709.01507)
-11. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [pdf](https://arxiv.org/pdf/1905.11946.pdf)
+11. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [[paper]](https://arxiv.org/pdf/1905.11946.pdf)
 
 #### Segmentation / Object Detection
 1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
 2. Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
 3. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al. [pdf]
-4. Fast R-CNN (2015), R. Girshick [pdf]
-5. YOLO9000: Better, Faster, Stronger (Yolov2) [pdf](https://arxiv.org/pdf/1612.08242.pdf)
+4. Fast R-CNN (2015), R. Girshick [[paper]]
+5. YOLO9000: Better, Faster, Stronger (Yolov2) [[paper]](https://arxiv.org/pdf/1612.08242.pdf)
 
 #### Generative Adversarial Networks
 1. GAN : Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1406.2661)
 2. cGAN: Conditional Generative Adversarial Nets [[paper]](http://cn.arxiv.org/pdf/1411.1784)
 3. DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1511.06434)
-4. DRAW: A recurrent neural network for image generation (2015). [[pdf]](http://jmlr.org/proceedings/papers/v37/gregor15.pdf) (VAE with attention)
+4. DRAW: A recurrent neural network for image generation (2015). [[paper]](http://jmlr.org/proceedings/papers/v37/gregor15.pdf) (VAE with attention)
 5. Self-Attention Generative Adversarial Networks [[paper]](https://arxiv.org/pdf/1805.08318.pdf)
 6. ProgressiveGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation. in ICLR 2018 [[pdf]](https://arxiv.org/pdf/1710.10196.pdf)
 
@@ -46,7 +46,7 @@
 
 
 #### Few Shot Learning
-1. DPGN: Distribution Propagation Graph Network for Few-shot Learning. in CVPR 2020 [[pdf]](https://arxiv.org/pdf/2003.14247.pdf)
+1. DPGN: Distribution Propagation Graph Network for Few-shot Learning. in CVPR 2020 [[paper]](https://arxiv.org/pdf/2003.14247.pdf)
 -> 만약 GNN에 대해서도 다루게 된다면...
 
 #### Image Caption
