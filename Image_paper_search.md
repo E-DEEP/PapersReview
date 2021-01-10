@@ -43,6 +43,11 @@
 2. **One-shot Learning with Memory-Augmented Neural Networks.** (2016). [[pdf]](http://arxiv.org/pdf/1605.06065)
 3. **Matching Networks for One Shot Learning**. (2016). [[pdf]]([https://arxiv.org/pdf/1606.04080)
 
+
+#### Few Shot Learning
+1. DPGN: Distribution Propagation Graph Network for Few-shot Learning. in CVPR 2020 [[pdf]](https://arxiv.org/pdf/2003.14247.pdf)
+-> 만약 GNN에 대해서도 다루게 된다면...
+
 #### Image Caption
 
 1. **Deep visual-semantic alignments for generating image descriptions**. 2014. [[pdf]](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
