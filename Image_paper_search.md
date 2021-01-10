@@ -23,6 +23,7 @@
 1. GAN : Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1406.2661)
 2. cGAN: Conditional Generative Adversarial Nets [[paper]](http://cn.arxiv.org/pdf/1411.1784)
 3. DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1511.06434)
+4. DRAW: A recurrent neural network for image generation (2015). [[pdf]](http://jmlr.org/proceedings/papers/v37/gregor15.pdf) (VAE with attention)
 
 #### Image to Image Translation
 1. Pix2Pix : Image-to-image translation with conditional adversarial networks [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf)
@@ -32,6 +33,27 @@
 5. StarGAN v2 : Stargan v2: Diverse image synthesis for multiple domains [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.pdf)
 6. U-GAT-IT : unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation [[paper]](https://arxiv.org/pdf/1907.10830)
 
+#### One Shot Learning
+1. **Siamese Neural Networks for One-shot Image Recognition**."(2015) [[pdf]](http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf)
+2. **One-shot Learning with Memory-Augmented Neural Networks.** (2016). [[pdf]](http://arxiv.org/pdf/1605.06065)
+3. **Matching Networks for One Shot Learning**. (2016). [[pdf]]([https://arxiv.org/pdf/1606.04080)
+
+#### Image Caption
+
+1. **Deep visual-semantic alignments for generating image descriptions**. 2014. [[pdf]](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
+2. **Deep fragment embeddings for bidirectional image sentence mapping**. 2014. [[pdf]](https://arxiv.org/pdf/1406.5679v1.pdf)
+3. **From captions to visual concepts and back**. 2014. [[pdf]](https://arxiv.org/pdf/1411.4952v3.pdf)
+4. **Learning a recurrent visual representation for image caption generation**.  2014. [[pdf]](https://arxiv.org/pdf/1411.5654v1.pdf)
+5. **Deep captioning with multimodal recurrent neural networks (m-rnn)**. 2014. [[pdf]](https://arxiv.org/pdf/1412.6632v5.pdf)
+6. **Show, attend and tell: Neural image caption generation with visual attention**. 2015. [[pdf]](https://arxiv.org/pdf/1502.03044v3.pdf)
+
+#### Segmentation
+
+1. **Fully convolutional networks for semantic segmentation**.” in CVPR, 2015. [[pdf]](https://arxiv.org/pdf/1411.4038v2.pdf) 
+2. **Semantic image segmentation with deep convolutional nets and fully connected crfs**. In ICLR, 2015. [[pdf]](https://arxiv.org/pdf/1606.00915v1.pdf) 
+3. **Learning to segment object candidates.** In: NIPS. 2015. [[pdf]](https://arxiv.org/pdf/1506.06204v2.pdf) 
+4. **Learning to segment object candidates.**  In: NIPS. 2015. [[pdf]](https://arxiv.org/pdf/1506.06204v2.pdf)
+5. **Instance-aware semantic segmentation via multi-task network cascades**. in CVPR. 2016 [[pdf]](https://arxiv.org/pdf/1512.04412v1.pdf)
 
 ### References
 1. https://github.com/MingtaoGuo/Summary-of-deep-learning-papers
