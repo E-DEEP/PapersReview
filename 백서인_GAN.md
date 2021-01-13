@@ -14,7 +14,7 @@
 ### Adversarial nets - [참고](https://wegonnamakeit.tistory.com/54)
 - 예시) 경찰과 위조지폐범: 
   - 위조지폐범(G)은 가짜 지폐를 진짜 지폐처럼 만들도록 학습
-  - 경찰(D)는 실제 지폐와 위조지폐범이 만들어낸 가짜 지폐를 잘 구별해낼 수 있도로 학습
+  - 경찰(D)는 실제 지폐와 위조지폐범이 만들어낸 가짜 지폐를 잘 구별해낼 수 있도록 학습
 
   <img width="736" alt="스크린샷 2021-01-13 오후 7 51 18" src="https://user-images.githubusercontent.com/48814946/104442778-e77da480-55d8-11eb-8ea3-417e6ac38c40.png">
 
