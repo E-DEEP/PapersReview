@@ -27,8 +27,8 @@
 
 ### Two-player minimax game
   <img width="736" alt="스크린샷 2021-01-13 오후 7 58 59" src="https://user-images.githubusercontent.com/48814946/104443483-d41f0900-55d9-11eb-8596-06ebdbcdf657.png">
-- D는 V(D,G)를 maximize
-- G는 V(D,G)를 minimize
+  - D는 V(D,G)를 maximize
+  - G는 V(D,G)를 minimize
 
 ### Advantages and disadvantages
 - advantages: 
