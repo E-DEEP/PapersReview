@@ -17,10 +17,11 @@
   - 경찰(D)는 실제 지폐와 위조지폐범이 만들어낸 가짜 지폐를 잘 구별해낼 수 있도록 학습
 
   <img width="736" alt="스크린샷 2021-01-13 오후 7 51 18" src="https://user-images.githubusercontent.com/48814946/104442778-e77da480-55d8-11eb-8ea3-417e6ac38c40.png">
-
-- 파란 점선 : discriminator distribution
-- 녹색 선 : generative distribution 
-- 검은색 점선 : data generating distribution
+  
+- 학습 과정
+  - 파란 점선 : discriminator distribution
+  - 녹색 선 : generative distribution 
+  - 검은색 점선 : data generating distribution
 
   <img width="736" alt="스크린샷 2021-01-13 오후 7 56 54" src="https://user-images.githubusercontent.com/48814946/104443236-81dde800-55d9-11eb-809c-c43659fae3c3.png">
 
