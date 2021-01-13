@@ -18,11 +18,9 @@
 
   <img width="736" alt="스크린샷 2021-01-13 오후 7 51 18" src="https://user-images.githubusercontent.com/48814946/104442778-e77da480-55d8-11eb-8ea3-417e6ac38c40.png">
 
-- Q_model(x|z) : 정의하고자 하는 z값을 줬을 때 x 이미지를 내보내는 모델
-- P_data(x) : x라는 data distribution은 있지만 어떻게 생긴지는 모르므로, P 모델을 Q 모델에 가깝게 가도록 함
-- 파란 점선 : discriminator distribution (분류 분포) > 학습을 반복하다보면 가장 구분하기 어려운 구별 확률인 1/2 상태가 됨
-- 녹색 선 : generative distribution (가짜 데이터 분포)
-- 검은색 점선 : data generating distribution (실제 데이터 분포)
+- 파란 점선 : discriminator distribution
+- 녹색 선 : generative distribution 
+- 검은색 점선 : data generating distribution
 
   <img width="736" alt="스크린샷 2021-01-13 오후 7 56 54" src="https://user-images.githubusercontent.com/48814946/104443236-81dde800-55d9-11eb-809c-c43659fae3c3.png">
 
