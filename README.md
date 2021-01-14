@@ -40,52 +40,24 @@
 
 ## 발표 논문 리스트
 
-### Image
 
-- Segmentation / Object Detection
+###<Image>
+
 1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
-2. Fully convolutional networks for semantic segmentation (2015), J. Long et al. [pdf]
-3. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al. [pdf]
-4. Fast R-CNN (2015), R. Girshick [pdf]
-
-- Image-to-Image Translation
-1. U-gat-it: unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation (2019) Kim, J et al. (https://arxiv.org/pdf/1907.10830)
-
-### Convolutional Neural Network Models
-
-1. Inception-v4, inception-resnet and the impact of residual connections on learning (2016), C. Szegedy et al. [pdf]
-2. Identity Mappings in Deep Residual Networks (2016), K. He et al. [pdf]
-3. Deep residual learning for image recognition (2016), K. He et al. [pdf]
-
-### Optimization / Training Techniques
+2. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015) 
+3. U-GAT-IT : unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation 
+4. StarGAN : Stargan: Unified generative adversarial networks for multi-domain image-to-image translation
+5. Self-Attention Generative Adversarial Networks
 
 
-### Natural Language Proecessing
+###<NLP>
+1. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Jacob Devlin, 2018 
+2. OpenAI GPT-1 - Improving Language Understanding by Generative Pre-Training 
+3. Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks 
+4. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations, Zhenzhong Lan, 2020 
+5. XLNet: Generalized Autoregressive Pretraining for Language Understanding 
 
-- Word Embeddings
-1. NPLM : A Neural Probabilistic Language Model, 2003 (https://papers.nips.cc/paper/2000/file/728f206c2a01bf572b5940d7d9a8fa4c-Paper.pdf)
-2. Word2Vec : Efficient Estimation of Word Representations in Vector Space (https://arxiv.org/abs/1301.3781)
-3. FastText : Enriching Word Vectors with Subword Information (https://arxiv.org/abs/1607.04606v2)
-4. GloVe : GloVe: Global Vectors for Word Representation (https://www.aclweb.org/anthology/D14-1162.pdf)
-5. Swivel : Swivel: Improving Embeddings by Noticing What's Missing (https://arxiv.org/abs/1602.02215)
 
-- Sentence Embeddings
-1. Doc2Vec : Distributed Representations of Sentences and Documents (https://arxiv.org/abs/1405.4053)
-2. ELMo : Deep contextualized word representations (https://arxiv.org/abs/1802.05365)
-3. Transformer : Attention Is All You Need (https://arxiv.org/abs/1706.03762)
-4. BERT : BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (https://arxiv.org/abs/1810.04805)
-
-Language Models
-1. GPT: Improving language understanding by generative pre-training (https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
-2. GPT-2: Language models are unsupervised multitask learners (https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
-3. GPT-3: Language Models are Few-Shot Learners (https://arxiv.org/abs/2005.14165)
-
-### Generative Adversarial Networks(GAN)
-1. GAN : Generative Adversarial Networks (https://arxiv.org/abs/1406.2661)
-2. DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks (https://arxiv.org/abs/1511.06434)
-3. CycleGAN : Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (https://arxiv.org/abs/1703.10593)
-4. StyleGAN : A Style-Based Generator Architecture for Generative Adversarial Networks (https://arxiv.org/abs/1812.04948)
-5. StarGAN : StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation (https://arxiv.org/abs/1711.09020)
 
 ## 참고할만한 사이트들
 
