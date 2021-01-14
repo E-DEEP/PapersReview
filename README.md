@@ -41,7 +41,7 @@
 ## 발표 논문 리스트
 
 
-###<Image>
+###Image
 
 1. You only look once: Unified, real-time object detection (2016), J. Redmon et al. [pdf]
 2. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015) 
@@ -50,7 +50,8 @@
 5. Self-Attention Generative Adversarial Networks
 
 
-###<NLP>
+###NLP
+
 1. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Jacob Devlin, 2018 
 2. OpenAI GPT-1 - Improving Language Understanding by Generative Pre-Training 
 3. Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks 
