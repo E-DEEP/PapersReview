@@ -246,8 +246,6 @@ StarGAN은 두 개의 convolutional layers로 구성된 (stride size of 2 for do
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdGJiEw%2FbtqURvfaThi%2FBgCyeZ8Kq6AMl6rlmxGbY0%2Fimg.png" />
 </p>
 
-[##_Image|kage@dGJiEw/btqURvfaThi/BgCyeZ8Kq6AMl6rlmxGbY0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="510" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
-
 **On CelebA+RaFD,**
 
 
@@ -256,4 +254,4 @@ StarGAN은 두 개의 convolutional layers로 구성된 (stride size of 2 for do
 </p>
 
 
-[##_Image|kage@8JEsC/btqUWtmXBa8/IR4eNPtSJG0oz0M9rvEcF1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
