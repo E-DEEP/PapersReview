@@ -85,6 +85,11 @@ _**3\. domain** : _같은 attribute value를 공유하는 이미지들의 집�
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeeF3qj%2FbtqUTmWcVVZ%2FbuQKnZfkSWsHnzxZeEdVyK%2Fimg.png" />
 </p>
 
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcxCL1H%2FbtqUWt1zqEp%2FEfTqePMEla4lq72GPEpO20%2Fimg.png" />
+</p>
+
+
 ## _다음으로 Loss function들을 살펴보자._
 
 #### **<Adversarial Loss>**
@@ -92,7 +97,7 @@ _**3\. domain** : _같은 attribute value를 공유하는 이미지들의 집�
  만들어진 이미지가 진짜 이미지와 구분되지 않도록 만들기 위해, original GAN과 마찬가지로 adversarial loss를 이용한다.
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcxCL1H%2FbtqUWt1zqEp%2FEfTqePMEla4lq72GPEpO20%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbkVCMZ%2FbtqUYGlOGt5%2FhdbRdQoFgcRItHAskkBy5k%2Fimg.png" />
 </p>
 
 generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지들을 구분하는 역할을 한다. 여기서 D\_src는 D에 의해 주어진 sources에 관한 확률 분포이다. G는 위의 loss 함수를 최소화하고자 하고 D는 최대화하고자 한다.(original GAN과 같음)
@@ -106,7 +111,7 @@ generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지�
 1) 첫번째는 **D**를 최적화하기 위해 사용되는 _진짜 이미지_들에 대한 도메인 분류 loss이다.
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbiDBnL%2FbtqUTmBTadx%2FFk2MImODh6xc0a711arUu0%2Fimg.png" />
 </p>
 
 이 함수를 최소화하기 위해서, D는 진짜 이미지 x를 original 도메인 c'에 분류하는 것을 학습한다.
@@ -116,10 +121,10 @@ generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지�
 2) 두번째는 **G**를 최적화하기 위한 _가짜 이미지_들에 대한 도메인 분류 loss이다.
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbkVCMZ%2FbtqUYGlOGt5%2FhdbRdQoFgcRItHAskkBy5k%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
 </p>
 
-위를 최소화하기 위해 D\_cls(c|G(x,c))를 1에 가까워지도록 G를 학습하낟.
+위를 최소화하기 위해 D\_cls(c|G(x,c))를 1에 가까워지도록 G를 학습한다.
 
 #### **<Reconstruction Loss>**
 
