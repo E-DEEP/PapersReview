@@ -139,20 +139,19 @@ Generator G는 변환된 이미지 G(x,c)와 오리지날 도메인 라벨 c'를
 
 
 <p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FD4AkJ%2FbtqUYgAS09Z%2FitVKenXytXsXMcV2q4SLC1%2Fimg.png" />
+</p>
+
+
+<p align="center">
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBg6sy%2FbtqUZuel1Js%2F1XNHGx89zUN1sTbvvIg711%2Fimg.png" />
 </p>
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcaaSsU%2FbtqUUrpvchR%2FL46s5JVr9574g1maUjGDy0%2Fimg.png" />
 </p>
 
-
-<p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
-</p>
-
-[##_Image|kage@D4AkJ/btqUYgAS09Z/itVKenXytXsXMcV2q4SLC1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="708" height="NaN" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@O3ayT/btqUOCrYyfj/jYcAazXkQRRKKRHGOLvc0K/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="403" height="NaN" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@xfTnY/btqUWs9rhgu/91AktyMf8c4drqk0gnSxZ0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="447" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
 
 하이퍼 파라미터인 lambda cls와 lambda rec를 통해 (도메인 분류 loss + reconstruction loss)/ adversarial loss 간의 중요도를 조절한다. 
 
@@ -170,11 +169,9 @@ StarGAN의 중요한 장점중의 하나는 다른 라벨들을 가지고 있는
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLvujA%2FbtqU0ygxmCi%2FTwvIKjAFhKFAekFQapleQk%2Fimg.png" />
 </p>
 
-
-[##_Image|kage@dBg6sy/btqUZuel1Js/1XNHGx89zUN1sTbvvIg711/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="503" height="NaN" data-ke-mobilestyle="widthContent"|위에 나왔던 reconstruction loss( label c'가 필요)||_##]
 
 ### **<Mask vector>**
 
@@ -188,11 +185,10 @@ StarGAN에서는 _**mask vector m**_을 표현하기 위해 **n차원의 one-hot
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdGJiEw%2FbtqURvfaThi%2FBgCyeZ8Kq6AMl6rlmxGbY0%2Fimg.png" />
 </p>
 
 
-[##_Image|kage@caaSsU/btqUUrpvchR/L46s5JVr9574g1maUjGDy0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="309" height="NaN" data-ke-mobilestyle="widthContent"|list가 아닌 concatenation을 뜻한다. matrix 형태||_##]
 
 c\_i는 i번째 데이터셋의 라벨에 대한 벡터를 뜻한다. 알려져 있는 라벨의 벡터 c\_i는 binary attributes에 대해서는 binary vector로 표현될 수 있고, 카테고리 attributes에 대해서는 one-hot bector로 표현될 수 있다. 
 
@@ -229,7 +225,7 @@ Training과정에서는, domain label
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLvujA%2FbtqU0ygxmCi%2FTwvIKjAFhKFAekFQapleQk%2Fimg.png" />
 </p>
 
 [##_Image|kage@bLvujA/btqU0ygxmCi/TwvIKjAFhKFAekFQapleQk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="649" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
@@ -247,7 +243,7 @@ StarGAN은 두 개의 convolutional layers로 구성된 (stride size of 2 for do
 **On RaFD,**
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdGJiEw%2FbtqURvfaThi%2FBgCyeZ8Kq6AMl6rlmxGbY0%2Fimg.png" />
 </p>
 
 [##_Image|kage@dGJiEw/btqURvfaThi/BgCyeZ8Kq6AMl6rlmxGbY0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="510" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
@@ -256,7 +252,7 @@ StarGAN은 두 개의 convolutional layers로 구성된 (stride size of 2 for do
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F8JEsC%2FbtqUWtmXBa8%2FIR4eNPtSJG0oz0M9rvEcF1%2Fimg.png" />
 </p>
 
 
