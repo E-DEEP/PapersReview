@@ -30,7 +30,9 @@ _**3\. domain** : _같은 attribute value를 공유하는 이미지들의 집�
 
 아래는 **CelebA 데이터셋**을 이용한 예시이다.
 
-[##_Image|kage@bjgZ7B/btqURuHc36L/oseF74UheULgpb7DElJOik/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="767" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbjgZ7B%2FbtqURuHc36L%2FoseF74UheULgpb7DElJOik%2Fimg.png" />
+</p>
 
 이러한 라벨링 데이셋을 이용한 multi-domain image translation은 기존의 모델에서는 비효율적이고 효과적이지 않다. k개의 도메인사이에서의 모든 매핑들을 학습하기 위해서는 k(k-1)개의 generators가 학습되어야 하기 때문이다.
 
