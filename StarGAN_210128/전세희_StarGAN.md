@@ -126,7 +126,7 @@ generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지�
 _Adversarial loss_와 _classification loss_를 최소화하기 위해, **G**는 진짜같은, 올바른 타겟 도메인에 분류되는 이미지들을 만들어내도록 학습된다. 하지만, 위의 Loss를 최소화하는 것은 변환된 이미지가 인풋 이미지들의 내용을 보존한다는 것을 보장하지 않는다. 이러한 문제를 완화하기 위해서, 이 논문에서는 generator에 **"Cycle consistency loss"**를 적용하였다. 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbiDBnL%2FbtqUTmBTadx%2FFk2MImODh6xc0a711arUu0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBg6sy%2FbtqUZuel1Js%2F1XNHGx89zUN1sTbvvIg711%2Fimg.png" />
 </p>
 
 Generator G는 변환된 이미지 G(x,c)와 오리지날 도메인 라벨 c'를 인풋으로 하고, 오리지날 이미지 x를 다시 생성해내도록 시도한다. **(Reconstruction)**
@@ -144,12 +144,12 @@ Generator G는 변환된 이미지 G(x,c)와 오리지날 도메인 라벨 c'를
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBg6sy%2FbtqUZuel1Js%2F1XNHGx89zUN1sTbvvIg711%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FO3ayT%2FbtqUOCrYyfj%2FjYcAazXkQRRKKRHGOLvc0K%2Fimg.png" />
 </p>
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcaaSsU%2FbtqUUrpvchR%2FL46s5JVr9574g1maUjGDy0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxfTnY%2FbtqUWs9rhgu%2F91AktyMf8c4drqk0gnSxZ0%2Fimg.png" />
 </p>
 
 
@@ -169,7 +169,7 @@ StarGAN의 중요한 장점중의 하나는 다른 라벨들을 가지고 있는
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLvujA%2FbtqU0ygxmCi%2FTwvIKjAFhKFAekFQapleQk%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBg6sy%2FbtqUZuel1Js%2F1XNHGx89zUN1sTbvvIg711%2Fimg.png" />
 </p>
 
 
@@ -185,7 +185,7 @@ StarGAN에서는 _**mask vector m**_을 표현하기 위해 **n차원의 one-hot
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdGJiEw%2FbtqURvfaThi%2FBgCyeZ8Kq6AMl6rlmxGbY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbE3hnQ%2FbtqUWtN3JHW%2FbMyBmSly6vqkjEazjyLrk1%2Fimg.png" />
 </p>
 
 
@@ -202,10 +202,10 @@ Training과정에서는, domain label
 
 
 <p align="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbE3hnQ%2FbtqUWtN3JHW%2FbMyBmSly6vqkjEazjyLrk1%2Fimg.png" />
 </p>
 
-[##_Image|kage@bE3hnQ/btqUWtN3JHW/bMyBmSly6vqkjEazjyLrk1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="374" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+
 
 를 generator의 인풋으로 사용하였다. **이를 통해 generator는 알려지지 않은 라벨에 대해서는 무시를 하게 된다.**(zero vectors이기 때문에) 또한, 확실하게 주어진 라벨에 초점을 맞추어 학습하게 된다. generator의 구조는 input label의 차원을 제외하고는 하나의 데이터셋에 대해 학습할 때와 같은 구조이다. 
 
