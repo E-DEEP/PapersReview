@@ -38,7 +38,11 @@ _**3\. domain** : _같은 attribute value를 공유하는 이미지들의 집�
 
 아래의 (a)는 이를 나타낸 그림이다. 4개의 다른 도메인들 사이에서 이미지를 translation 시키기 위해서는 4\*(4-1) = 12개의 네트워크가 필요하다. 또한,  각 데이터셋이 부분적으로 라벨링되어 있기 때문에, jointly training이 불가능하다.
 
-[##_Image|kage@zxfi4/btqUYGTEut6/DS9kTSWYYQCsS86lGGoFZk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="661" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fzxfi4%2FbtqUYGTEut6%2FDS9kTSWYYQCsS86lGGoFZk%2Fimg.png" />
+</p>
+
 
 이러한 문제들을 해결하는 모델이 바로 이 논문에서의 StarGAN이다. 위의 (b)에서 볼 수 있듯이 StarGAN은 모든 가능한 도메인들사이의 매핑을 하나의 generator(G)를 통해 학습한다. 
 
@@ -70,11 +74,16 @@ _**3\. domain** : _같은 attribute value를 공유하는 이미지들의 집�
 
      이를 위해서, 인풋 이미지 x를 타겟 도메인 라벨 c의 조건에서 output image y로 변환시키도록 G를 학습한다.
 
-[##_Image|kage@bJUyof/btqU0x9Kmak/r1rZUgj5EHJh1KHUEALYF0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="223" height="NaN" data-ke-mobilestyle="widthContent"|input image x, domain label c를 generator에 넣었을 때 output image y가 되도록 G를 학습||_##]
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbJUyof%2FbtqU0x9Kmak%2Fr1rZUgj5EHJh1KHUEALYF0%2Fimg.png" />
+</p>
+
 
     랜덤하게 target 도메인 label c를 만들어내어 G가 유연하게 이미지를 변환시키도록 한다. 또한 auxiliary classifier를 통해 하나의         discriminator가 sources와 domain labels에 대해 확률 분포를 만들어내도록 한다.
 
-[##_Image|kage@eeF3qj/btqUTmWcVVZ/buQKnZfkSWsHnzxZeEdVyK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="500" height="NaN" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@cxCL1H/btqUWt1zqEp/EfTqePMEla4lq72GPEpO20/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="757" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeeF3qj%2FbtqUTmWcVVZ%2FbuQKnZfkSWsHnzxZeEdVyK%2Fimg.png" />
+</p>
 
 ## _다음으로 Loss function들을 살펴보자._
 
@@ -82,7 +91,9 @@ _**3\. domain** : _같은 attribute value를 공유하는 이미지들의 집�
 
  만들어진 이미지가 진짜 이미지와 구분되지 않도록 만들기 위해, original GAN과 마찬가지로 adversarial loss를 이용한다.
 
-[##_Image|kage@efaTkC/btqU0xIF9Vm/FgxbHTTHrqsAhuwSbkKZY0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="647" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcxCL1H%2FbtqUWt1zqEp%2FEfTqePMEla4lq72GPEpO20%2Fimg.png" />
+</p>
 
 generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지들을 구분하는 역할을 한다. 여기서 D\_src는 D에 의해 주어진 sources에 관한 확률 분포이다. G는 위의 loss 함수를 최소화하고자 하고 D는 최대화하고자 한다.(original GAN과 같음)
 
@@ -94,7 +105,9 @@ generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지�
 
 1) 첫번째는 **D**를 최적화하기 위해 사용되는 _진짜 이미지_들에 대한 도메인 분류 loss이다.
 
-[##_Image|kage@bkVCMZ/btqUYGlOGt5/hdbRdQoFgcRItHAskkBy5k/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="567" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
 
 이 함수를 최소화하기 위해서, D는 진짜 이미지 x를 original 도메인 c'에 분류하는 것을 학습한다.
 
@@ -102,7 +115,9 @@ generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지�
 
 2) 두번째는 **G**를 최적화하기 위한 _가짜 이미지_들에 대한 도메인 분류 loss이다.
 
-[##_Image|kage@biDBnL/btqUTmBTadx/Fk2MImODh6xc0a711arUu0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="612" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbkVCMZ%2FbtqUYGlOGt5%2FhdbRdQoFgcRItHAskkBy5k%2Fimg.png" />
+</p>
 
 위를 최소화하기 위해 D\_cls(c|G(x,c))를 1에 가까워지도록 G를 학습하낟.
 
@@ -110,7 +125,9 @@ generator G가 image G(x,c)를 만들어내고 D는 진짜와 가짜 이미지�
 
 _Adversarial loss_와 _classification loss_를 최소화하기 위해, **G**는 진짜같은, 올바른 타겟 도메인에 분류되는 이미지들을 만들어내도록 학습된다. 하지만, 위의 Loss를 최소화하는 것은 변환된 이미지가 인풋 이미지들의 내용을 보존한다는 것을 보장하지 않는다. 이러한 문제를 완화하기 위해서, 이 논문에서는 generator에 **"Cycle consistency loss"**를 적용하였다. 
 
-[##_Image|kage@dBg6sy/btqUZuel1Js/1XNHGx89zUN1sTbvvIg711/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="651" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbiDBnL%2FbtqUTmBTadx%2FFk2MImODh6xc0a711arUu0%2Fimg.png" />
+</p>
 
 Generator G는 변환된 이미지 G(x,c)와 오리지날 도메인 라벨 c'를 인풋으로 하고, 오리지날 이미지 x를 다시 생성해내도록 시도한다. **(Reconstruction)**
 
@@ -119,6 +136,21 @@ Generator G는 변환된 이미지 G(x,c)와 오리지날 도메인 라벨 c'를
 #### **<Full objective>**
 
 위에서 나온 loss들을 모두 정리해보면 다음과 같은 식을 얻는다.
+
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBg6sy%2FbtqUZuel1Js%2F1XNHGx89zUN1sTbvvIg711%2Fimg.png" />
+</p>
+
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
+
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
 
 [##_Image|kage@D4AkJ/btqUYgAS09Z/itVKenXytXsXMcV2q4SLC1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="708" height="NaN" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@O3ayT/btqUOCrYyfj/jYcAazXkQRRKKRHGOLvc0K/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="403" height="NaN" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@xfTnY/btqUWs9rhgu/91AktyMf8c4drqk0gnSxZ0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="447" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
 
@@ -136,6 +168,12 @@ StarGAN의 중요한 장점중의 하나는 다른 라벨들을 가지고 있는
 
 (변환된 이미지 G(x,c)에서 Input image x를 Reconstructing 하는 과정에서 라벨 벡터 c'에 대한 완전한 정보가 필요하기 때문에 문제가 된다.)
 
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
+
+
 [##_Image|kage@dBg6sy/btqUZuel1Js/1XNHGx89zUN1sTbvvIg711/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="503" height="NaN" data-ke-mobilestyle="widthContent"|위에 나왔던 reconstruction loss( label c'가 필요)||_##]
 
 ### **<Mask vector>**
@@ -148,6 +186,12 @@ StarGAN에서는 _**mask vector m**_을 표현하기 위해 **n차원의 one-hot
 
 또한, label의 통합된 버전을 다음과 같이 정의한다.
 
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
+
+
 [##_Image|kage@caaSsU/btqUUrpvchR/L46s5JVr9574g1maUjGDy0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="309" height="NaN" data-ke-mobilestyle="widthContent"|list가 아닌 concatenation을 뜻한다. matrix 형태||_##]
 
 c\_i는 i번째 데이터셋의 라벨에 대한 벡터를 뜻한다. 알려져 있는 라벨의 벡터 c\_i는 binary attributes에 대해서는 binary vector로 표현될 수 있고, 카테고리 attributes에 대해서는 one-hot bector로 표현될 수 있다. 
@@ -159,6 +203,11 @@ c\_i는 i번째 데이터셋의 라벨에 대한 벡터를 뜻한다. 알려져 
 ### **<Training Strategy>**
 
 Training과정에서는, domain label
+
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
 
 [##_Image|kage@bE3hnQ/btqUWtN3JHW/bMyBmSly6vqkjEazjyLrk1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="374" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
 
@@ -178,6 +227,11 @@ Training과정에서는, domain label
 
 학습 과정을 안정화시키고 더 좋은 퀄리티의 이미지들을 만들어내기 위해 이 논문에서는 Eq(1)을 **gradient penalty**와 함께 **Wasserstein GAN**으로 대체하였다. 
 
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
+
 [##_Image|kage@bLvujA/btqU0ygxmCi/TwvIKjAFhKFAekFQapleQk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="649" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
 
 ### **Network Architecture**
@@ -192,8 +246,18 @@ StarGAN은 두 개의 convolutional layers로 구성된 (stride size of 2 for do
 
 **On RaFD,**
 
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
+
 [##_Image|kage@dGJiEw/btqURvfaThi/BgCyeZ8Kq6AMl6rlmxGbY0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="510" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
 
 **On CelebA+RaFD,**
+
+
+<p align="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FefaTkC%2FbtqU0xIF9Vm%2FFgxbHTTHrqsAhuwSbkKZY0%2Fimg.png" />
+</p>
+
 
 [##_Image|kage@8JEsC/btqUWtmXBa8/IR4eNPtSJG0oz0M9rvEcF1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
