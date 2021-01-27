@@ -1,3 +1,5 @@
+## StarGAN
+
 ### Abstract
 - 최근 두 도메인간 image-to-image translation에 대한 많은 성공적인 연구가 있었다.
 - 하지만 기존 방법론은 각 도메인별로 모델을 따로 학습해야 했기 때문에 scalability 와 robustness에서 한계가 있었다.
@@ -12,21 +14,23 @@
   attribute value를 hair color의 black/blond/brown과 같이 attribute의 특정 값을 나타내는 단어로
   domain을 동일 attribute value을 공유하는 이미지의 집합을 나타내는 단어로 사용한다.
  
-![스크린샷 2021-01-27 오후 8 03 50](https://user-images.githubusercontent.com/48814946/105982597-d3f33300-60da-11eb-8e91-957c59934211.png)
+![스크린샷 2021-01-27 오후 8 08 30](https://user-images.githubusercontent.com/48814946/105983101-8cb97200-60db-11eb-839c-4795da702d4e.png)
 
-- 기존 방법론들은 multi-domain image translation task를 수행할 때 효율적이지 못하다.
-- k개의 도메인 학습을 위해서는 k(k-1)개의 generators 학습이 필요하다.
-- 또한, 모든 도메인의 데이터로부터 학습될 수 있는 global한 feature에 대해 각 generator들은 이를 전부 활용하지 못한다.
-- 또한, 서로 다른 데이터셋이 함께 학습될 수 없는데 이는 각 데이터셋이 "partially labeled" 되었기 때문이다 
-  -> 어떤 데이터셋에는 happy, angry 등의 라벨링이 되어있고 다른 데이터셋은 black/brwon 등 hair에 대한 라벨링이 되어 있는 경우가 해당된다.
+- 기존 방법론
+  - 기존 방법론들은 multi-domain image translation task를 수행할 때 효율적이지 못하다.
+  - k개의 도메인 학습을 위해서는 k(k-1)개의 generators 학습이 필요하다.
+  - 또한, 모든 도메인의 데이터로부터 학습될 수 있는 global한 feature에 대해 각 generator들은 이를 전부 활용하지 못한다.
+  - 또한, 서로 다른 데이터셋이 함께 학습될 수 없는데 이는 각 데이터셋이 "partially labeled" 되었기 때문이다 
+    -> 어떤 데이터셋에는 happy, angry 등의 라벨링이 되어있고 다른 데이터셋은 black/brwon 등 hair에 대한 라벨링이 되어 있는 경우가 해당된다.
 
-- 기존 방법론들의 문제를 해결하기 위해 본 논문에서는 StarGAN을 제안한다.
-- StarGAN은 multi domain의 데이터로부터 학습이 되고 하나의 generator만으로 모든 가능한 도메인간의 맵핑이 가능하다.
-- 아이디어는 다음과 같다.
-- fixed translation을 학습하는 대신, StarGAN은 image와 domain information에 대한 것을 input을 사용한다.
-- 그리고 flexible하게 도메인간 tranlate을 할 수 있도록 학습한다.
-- domain information에 대한 정보는 binary 혹은 one-hot-vector와 같이 라벨링하여 나타낸다.
-- 또한, domain 라벨에 mask vector를 도입하여 서로 다른 데이터셋이 함께 학습될 수 있는 효과적인 방법을 제안한다.
+- StarGAN
+  - 기존 방법론들의 문제를 해결하기 위해 본 논문에서는 StarGAN을 제안한다.
+  - StarGAN은 multi domain의 데이터로부터 학습이 되고 하나의 generator만으로 모든 가능한 도메인간의 맵핑이 가능하다.
+  - 아이디어는 다음과 같다.
+  - fixed translation을 학습하는 대신, StarGAN은 image와 domain information에 대한 것을 input을 사용한다.
+  - 그리고 flexible하게 도메인간 tranlate을 할 수 있도록 학습한다.
+  - domain information에 대한 정보는 binary 혹은 one-hot-vector와 같이 라벨링하여 나타낸다.
+  - 또한, domain 라벨에 mask vector를 도입하여 서로 다른 데이터셋이 함께 학습될 수 있는 효과적인 방법을 제안한다.
 
 ### Star Generative Adversarial Networks
 ![스크린샷 2021-01-27 오후 8 06 09](https://user-images.githubusercontent.com/48814946/105982793-216fa000-60db-11eb-9375-149022333d9d.png)
