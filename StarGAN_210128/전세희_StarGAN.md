@@ -233,7 +233,7 @@ Training과정에서는, domain label
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLvujA%2FbtqU0ygxmCi%2FTwvIKjAFhKFAekFQapleQk%2Fimg.png" />
 </p>
 
-[##_Image|kage@bLvujA/btqU0ygxmCi/TwvIKjAFhKFAekFQapleQk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="649" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+
 
 ### **Network Architecture**
 
