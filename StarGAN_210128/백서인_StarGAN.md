@@ -14,10 +14,9 @@
   attribute value를 hair color의 black/blond/brown과 같이 attribute의 특정 값을 나타내는 단어로
   domain을 동일 attribute value을 공유하는 이미지의 집합을 나타내는 단어로 사용한다.
  
- <p align="center">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/48814946/105983101-8cb97200-60db-11eb-839c-4795da702d4e.png" />
 </p>
-# ![스크린샷 2021-01-27 오후 8 08 30](https://user-images.githubusercontent.com/48814946/105983101-8cb97200-60db-11eb-839c-4795da702d4e.png)
 
 - 기존 방법론
   - 기존 방법론들은 multi-domain image translation task를 수행할 때 효율적이지 못하다.
@@ -36,7 +35,9 @@
   - 또한, domain 라벨에 mask vector를 도입하여 서로 다른 데이터셋이 함께 학습될 수 있는 효과적인 방법을 제안한다.
 
 ### Star Generative Adversarial Networks
-![스크린샷 2021-01-27 오후 8 06 09](https://user-images.githubusercontent.com/48814946/105982793-216fa000-60db-11eb-9375-149022333d9d.png)
+<p align="center">
+  <img src= "https://user-images.githubusercontent.com/48814946/105982793-216fa000-60db-11eb-9375-149022333d9d.png" />
+</p>
 
 - StarGAN의 목표는 single generator G를 multiple domains으로 맵핑하기 위해 학습시키는 것이다.
 - 이를 위해 generator G는 input image x를 target domain이 c인 output image y로 바꾸도록 학습된다. G(x,c) -> y
