@@ -62,8 +62,10 @@ k는 context window이고 조건부확률P는 parameter가Θ인 신경망을 사
 
 이 모델은 입력 문맥 token에 _**multi-headed self-attention**_을 적용 후, 목표 token에 대한 분포를 얻기 위해 _**position-wise feedforward layer**_를 적용한다.
 
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcDJLCb%2FbtqVAHZBcSj%2Fir5N9taGuOYSilkkkHojCk%2Fimg.png)
+
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbS8ztt%2FbtqVvOyqmQq%2FeXNyq4uZ9v6AwWdamKYK81%2Fimg.png)
-![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fx6QFS%2FbtqVvPKUQk2%2FouGgk910LVEBqKAoRX3lOk%2Fimg.png)
 
 
 n은 layer의 수,We는 **token embedding** 행렬,Wp는 **position embedding** 행렬이다.
@@ -74,10 +76,8 @@ n은 layer의 수,We는 **token embedding** 행렬,Wp는 **position embedding** 
 
 이는 다음을 최대화한다.
 
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fx6QFS%2FbtqVvPKUQk2%2FouGgk910LVEBqKAoRX3lOk%2Fimg.png)
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQNSa1%2FbtqVAIRNkeD%2FILsHMGSb3jIueKr4vYdBmk%2Fimg.png)
-
-
-![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUTKnJ%2FbtqVyULXxMP%2FWjNdMELnakv5SYdWmaUWKK%2Fimg.png)
 
 fine-tuning 단계에 언어모델을 보조 objective function으로 포함시킴으로써 다음 이유로 학습을 돕는다.
 
@@ -85,8 +85,7 @@ fine-tuning 단계에 언어모델을 보조 objective function으로 포함시�
 -   수렴을 가속화한다. 즉 목적함수의 critical point로...
 
 구체적으로, parameterλ에 대해 다음 목적함수를 최적화한다:
-
-![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbDeUKI%2FbtqVyVxmX5k%2FT76ZIRVIGcggQAgnYIOwvk%2Fimg.png)
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUTKnJ%2FbtqVyULXxMP%2FWjNdMELnakv5SYdWmaUWKK%2Fimg.png)
 
 
 즉, fine tuning 단계에서 추가된 parameter는Wy과 구분자 token을 위한 embedding 뿐이다.
@@ -111,7 +110,8 @@ fine-tuning 단계에 언어모델을 보조 objective function으로 포함시�
 
 문맥 문서z, 질문q, 가능한 답변이 ak라 하면,\[z; q; $; a\_k\]로 연결하고 Input 개수는 답변의 개수만큼 생성된다.
 
-[##_Image|kage@bDeUKI/btqVyVxmX5k/T76ZIRVIGcggQAgnYIOwvk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbDeUKI%2FbtqVyVxmX5k%2FT76ZIRVIGcggQAgnYIOwvk%2Fimg.png)
+
 
 ---
 
