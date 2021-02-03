@@ -29,5 +29,49 @@
 
 ### Related Work
 #### Semi-supervised learning for NLP
+- 본 논문은 semi-supervised learning의 범위 안에 속한다고 할 수 있음
+- 이 패러다임은 sequence labeling이나 text classification과 같은 task의 응용과 함께 상당항 흥미를 끌었음
+- 초기 단계의 접근법은 라벨링되지 않은 데이터를 word-level 혹은 phase-level statistics을 계산하기 위해 사용하는 것이었음 (이는 supervised model의 feature 로서 사용됨)
+- 몇년 후, 연구자들은 word embedding을 사용하는 것의 장점을 증명하였음
+- 하지만 이러한 방법들은 주로 word-level information을 transfer함
+- 본 논문에서는 좀 더 higher-level semantics를 캡쳐하는 것을 목표로 함
+- 최근 연구들은 라벨링되지 않은 데이터로부터 word-level 이상의 information을 활용하는 방법에 대한 것임
+- 라벨링되지 않은 데이터로부터 학습 가능한 Phase-level 또는 sentence-level embedding은 다양한 task에서 text를 적절한 vector representation으로 인코딩하기 위해 사용되어 왔음
+
+#### Unsupervised pre-training
+- Unsupervised pre-training은 semi-supervised learning의 special case임
+- 목표는 supervised learning objective를 수정하는 것이 아니라 good initialization point를 찾는 것임
+- 초기 연구들은 이 technique를 이미지 classification 이나 regression task에 활용해왔음
+- 많은 연구들이 pre-training이 마치 deep neural network를 잘 일반화할 수 있도록 하는 regularization scheme과 같은 역할을 한다는 것을 증명해왔음
+- 최근 연구에서는 이 방법이 다양한 task에서 deep neural network의 학습을 돕기 위해 사용되고 있음
+
+#### Auxiliary training objectives
+- auxiliary unsupervised training objectives를 추가하는 것은 semi-supervised learning의 대안 형태임
+- 본 논문에서도 auxiliary objectives를 사용하지만, unsupervised pre-training은 이미 target task에 관련된 several linguistic aspects를 학습한 상태임
+
+### Framework
+- Training procedure은 two stage로 나뉨
+- 첫번째 단계는 high-capacity language model을 학습하는 것
+- 두번째 단계는 라벨링된 데이터를 사용하여 학습된 pre training model을 각 task에 적용하는 것
+
+#### Unsupervised pre-training
+- 주어진 unsupervised copus tokens U = {u_1,u_2, ... , u_n} 로부터 아래의 likelihood 를 maximize 하기 위해 standard language modeling objective 를 사용
+
+[이미지_1]
+
+- 본 실험에서는 multi-layer Transformer decoder 를 사용
+- 이 모델은 multi-head self-attention operation을 적용
+
+#### Supervised fine-tuning
+- model을 pre-training한 후에는 supervised target task로 파라미터를 적용함
+- input data는 pre-trained model를 지나 final transformer block의 activation 을 얻고, 이는 추가적인 linear layer로 들어가 라벨 y를 예측하게 됨
+- fine-tuning 단계에서 auxiliary objective를 추가하는 것은 (a) supervised model의 일반화를 가능하게 하고 (b) 수렴을 빠르게 함
+
+[이미지 2]
+
+#### Task-specific input transformations
+- text classification과 같은 task에서는 우리의 model를 바로 fine-tune할 수 있다
+- 하지만, question answering, textual entailment 와 같은 task에서는 ordered sentence pairs, triplets of document, question, answer 과 같은 input이 필요함
+- 
 
 
