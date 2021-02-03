@@ -22,3 +22,12 @@
 - 모델은 two-stage로 나뉨
   - 라벨링되지 않은 데이터로부터 neural network model의 초기 파라미터를 학습하기 위해 language modeling objective를 사용
   - supervised objective를 사용하여 학습된 파라미터를 target task에 적용
+- 모델 아키텍쳐는 Transformer 모델을 사용
+- Transformer 모델을 사용하는 것은 long-term dependencies를 핸들링하기 용이하게 함
+- Transfer를 할 땐, task-specific input adaptation을 활용
+- 이러한 adaptation은 pre-trained model의 아키텍쳐를 조금만 바꾸어도 효과적인 fine-tuning이 가능하도록 함
+
+### Related Work
+#### Semi-supervised learning for NLP
+
+
