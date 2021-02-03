@@ -96,7 +96,4 @@
 - 2) single layer 2047 LSTM과 Transformer의 성능 비교
 - 3) pre-training 없이 target task에서 바로 학습된 모델과 성능 비교
 
-### Conclusion
-- 
-
 
