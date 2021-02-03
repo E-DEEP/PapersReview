@@ -79,5 +79,24 @@
 
 ### Analysis
 
+[이미지 3]
+
+#### Impact of number of layers transferred
+- layer의 수가 많아질수록 성능 향상
+- pre-trained model의 각 layer가 target task를 풀기 위한 useful functionality를 포함하고 있음을 알 수 있음
+
+#### Zero-shot Behaviors
+- Transformers를 pre-training한 모델이 왜 효과적인지에 대해 분석
+- 가정은 다음과 같음
+- LSTM과 비교하여 transformers의 attentional memory가 더 잘 transfer 하도록 돕기 때문
+
+#### Ablation studies
+[이미지 4]
+- 1) fine tuning에서 auxiliary LM objectives 제거
+- 2) single layer 2047 LSTM과 Transformer의 성능 비교
+- 3) pre-training 없이 target task에서 바로 학습된 모델과 성능 비교
+
+### Conclusion
+- 
 
 
