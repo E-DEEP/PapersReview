@@ -27,11 +27,11 @@ Improving Language Understanding by Generative Pre-training
 1. Unsupervised pre-training 
     - 다음과 같이 token이 주어졌다고 하면,
 
-        ![GPT-1%20a9fae3b5d010490d92303ac5b70bdd9f/Untitled.png](GPT-1%20a9fae3b5d010490d92303ac5b70bdd9f/Untitled.png)
+        ![Untitled 1](https://user-images.githubusercontent.com/34685762/106765663-6320bd80-667c-11eb-9a93-86783d1e6489.png)
 
         목적함수는 다음과 같다. 
 
-        ![GPT-1%20a9fae3b5d010490d92303ac5b70bdd9f/Untitled%201.png](GPT-1%20a9fae3b5d010490d92303ac5b70bdd9f/Untitled%201.png)
+        ![Untitled 2](https://user-images.githubusercontent.com/34685762/106765824-8e0b1180-667c-11eb-807f-ffae0e4bcca6.png)
 
         : 주어진 토큰이 $u_i$일때, i번째 이전까지의 token을 보며 그 다음에 올 토큰인 $u_i$을 예측하도록하는 목적함수이다. 
 
@@ -39,7 +39,7 @@ Improving Language Understanding by Generative Pre-training
 
          deconder를 여러개 이어서 사용한다. 
 
-        ![GPT-1%20a9fae3b5d010490d92303ac5b70bdd9f/Untitled%202.png](GPT-1%20a9fae3b5d010490d92303ac5b70bdd9f/Untitled%202.png)
+        ![Untitled](https://user-images.githubusercontent.com/34685762/106765863-9bc09700-667c-11eb-912e-c764d6b1db3e.png)
 
         이와 같이 처음 $h_0$는 context vector token U와 token embedding matrix $W_e$와 position embedding matrix $W_p$로 만들어지고, 이것이 transformer decoder block에 들어감. 마지막 decoder에서 나온 값은 softmax로 다음 token 예측
 
