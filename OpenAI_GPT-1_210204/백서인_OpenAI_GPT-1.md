@@ -72,6 +72,12 @@
 #### Task-specific input transformations
 - text classification과 같은 task에서는 우리의 model를 바로 fine-tune할 수 있다
 - 하지만, question answering, textual entailment 와 같은 task에서는 ordered sentence pairs, triplets of document, question, answer 과 같은 input이 필요함
-- 
+- 이러한 task에서는 모델이 약간 수정되어야 함
+- 본 논문에서는 traversal-style approach를 사용
+- 이를 위해 구조화된 input 를 model이 process할 수 있도록 ordered sequence 로 변환해줌
+- 이러한 input transformation은 여러 task에서도 모델의 아키텍쳐에 대한 큰 수정을 하는 것을 피하도록 해줌
+
+### Analysis
+
 
 
