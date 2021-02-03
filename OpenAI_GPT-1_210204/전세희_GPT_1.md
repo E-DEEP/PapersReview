@@ -34,7 +34,7 @@
 ---
 
 모델에서는 기존 많은 task에서 상당한 성능을 보인[Transformer]
-![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FK48IT%2FbtqVzROW5HD%2FBls4uel0wnmG8RCSnuaE0k%2Fimg.png)
+
 를 사용한다. transformer는 RNN, LSTM에 비해 장거리 의존성을 다루는 데 뛰어나 더 많은 구조화된 memory를 쓸 수 있게 한다. transfer 중에는 traversal-style 접근법에서 얻은 task-specific 입력적응을 이용하며 Input은 하나의 일련의 ‘**연속의 token**’으로 주어진다. 이 방법은 사전학습된 모델의 구조를 최소한으로 바꾸게 한다.
 
 이 접근법을 네 가지(자연어추론, Q&A, 의미 유사성, 문서분류)과제에 대해 평가한다. 이 모델은 12개 중 9개의 과제에서 SOTA수준의 결과를 보인다.
@@ -52,7 +52,9 @@
 
 token의 라벨링되지 않은 데이터 U가 주어질 때, 다음을 최대화하도록 objective funtion을 사용한다:
 
-[##_Image|kage@K48IT/btqVzROW5HD/Bls4uel0wnmG8RCSnuaE0k/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FK48IT%2FbtqVzROW5HD%2FBls4uel0wnmG8RCSnuaE0k%2Fimg.png)
+
 
 k는 context window이고 조건부확률P는 parameter가Θ인 신경망을 사용하도록 설계되었다. 이 function은 SGD를 이용하여 최소화된다.
 
@@ -60,7 +62,9 @@ k는 context window이고 조건부확률P는 parameter가Θ인 신경망을 사
 
 이 모델은 입력 문맥 token에 _**multi-headed self-attention**_을 적용 후, 목표 token에 대한 분포를 얻기 위해 _**position-wise feedforward layer**_를 적용한다.
 
-[##_Image|kage@cDJLCb/btqVAHZBcSj/ir5N9taGuOYSilkkkHojCk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="548" height="NaN" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@bS8ztt/btqVvOyqmQq/eXNyq4uZ9v6AwWdamKYK81/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="189" data-ke-mobilestyle="widthContent"|token의 문맥벡터||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbS8ztt%2FbtqVvOyqmQq%2FeXNyq4uZ9v6AwWdamKYK81%2Fimg.png)
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fx6QFS%2FbtqVvPKUQk2%2FouGgk910LVEBqKAoRX3lOk%2Fimg.png)
+
 
 n은 layer의 수,We는 **token embedding** 행렬,Wp는 **position embedding** 행렬이다.
 
@@ -70,9 +74,10 @@ n은 layer의 수,We는 **token embedding** 행렬,Wp는 **position embedding** 
 
 이는 다음을 최대화한다.
 
-[##_Image|kage@x6QFS/btqVvPKUQk2/ouGgk910LVEBqKAoRX3lOk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQNSa1%2FbtqVAIRNkeD%2FILsHMGSb3jIueKr4vYdBmk%2Fimg.png)
 
-[##_Image|kage@QNSa1/btqVAIRNkeD/ILsHMGSb3jIueKr4vYdBmk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUTKnJ%2FbtqVyULXxMP%2FWjNdMELnakv5SYdWmaUWKK%2Fimg.png)
 
 fine-tuning 단계에 언어모델을 보조 objective function으로 포함시킴으로써 다음 이유로 학습을 돕는다.
 
@@ -81,7 +86,8 @@ fine-tuning 단계에 언어모델을 보조 objective function으로 포함시�
 
 구체적으로, parameterλ에 대해 다음 목적함수를 최적화한다:
 
-[##_Image|kage@bUTKnJ/btqVyULXxMP/WjNdMELnakv5SYdWmaUWKK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbDeUKI%2FbtqVyVxmX5k%2FT76ZIRVIGcggQAgnYIOwvk%2Fimg.png)
+
 
 즉, fine tuning 단계에서 추가된 parameter는Wy과 구분자 token을 위한 embedding 뿐이다.
 
