@@ -33,7 +33,9 @@
 
 ---
 
-모델에서는 기존 많은 task에서 상당한 성능을 보인[Transformer](https://greeksharifa.github.io/nlp(natural%20language%20processing)%20/%20rnns/2019/08/17/Attention-Is-All-You-Need/#3-%EB%AA%A8%EB%8D%B8-%EA%B5%AC%EC%84%B1model-architecture)를 사용한다. transformer는 RNN, LSTM에 비해 장거리 의존성을 다루는 데 뛰어나 더 많은 구조화된 memory를 쓸 수 있게 한다. transfer 중에는 traversal-style 접근법에서 얻은 task-specific 입력적응을 이용하며 Input은 하나의 일련의 ‘**연속의 token**’으로 주어진다. 이 방법은 사전학습된 모델의 구조를 최소한으로 바꾸게 한다.
+모델에서는 기존 많은 task에서 상당한 성능을 보인[Transformer]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FK48IT%2FbtqVzROW5HD%2FBls4uel0wnmG8RCSnuaE0k%2Fimg.png)
+를 사용한다. transformer는 RNN, LSTM에 비해 장거리 의존성을 다루는 데 뛰어나 더 많은 구조화된 memory를 쓸 수 있게 한다. transfer 중에는 traversal-style 접근법에서 얻은 task-specific 입력적응을 이용하며 Input은 하나의 일련의 ‘**연속의 token**’으로 주어진다. 이 방법은 사전학습된 모델의 구조를 최소한으로 바꾸게 한다.
 
 이 접근법을 네 가지(자연어추론, Q&A, 의미 유사성, 문서분류)과제에 대해 평가한다. 이 모델은 12개 중 9개의 과제에서 SOTA수준의 결과를 보인다.
 
