@@ -57,7 +57,7 @@
 #### Unsupervised pre-training
 - 주어진 unsupervised copus tokens U = {u_1,u_2, ... , u_n} 로부터 아래의 likelihood 를 maximize 하기 위해 standard language modeling objective 를 사용
 
-[이미지_1]
+![image](https://user-images.githubusercontent.com/48814946/106703879-76a53780-662e-11eb-809f-bc69ec29defd.png)
 
 - 본 실험에서는 multi-layer Transformer decoder 를 사용
 - 이 모델은 multi-head self-attention operation을 적용
@@ -67,7 +67,7 @@
 - input data는 pre-trained model를 지나 final transformer block의 activation 을 얻고, 이는 추가적인 linear layer로 들어가 라벨 y를 예측하게 됨
 - fine-tuning 단계에서 auxiliary objective를 추가하는 것은 (a) supervised model의 일반화를 가능하게 하고 (b) 수렴을 빠르게 함
 
-[이미지 2]
+![image](https://user-images.githubusercontent.com/48814946/106703897-83c22680-662e-11eb-8aa9-7fea60da458e.png)
 
 #### Task-specific input transformations
 - text classification과 같은 task에서는 우리의 model를 바로 fine-tune할 수 있다
@@ -79,7 +79,7 @@
 
 ### Analysis
 
-[이미지 3]
+![image](https://user-images.githubusercontent.com/48814946/106703944-95a3c980-662e-11eb-8a38-676cd3073139.png)
 
 #### Impact of number of layers transferred
 - layer의 수가 많아질수록 성능 향상
@@ -91,7 +91,8 @@
 - LSTM과 비교하여 transformers의 attentional memory가 더 잘 transfer 하도록 돕기 때문
 
 #### Ablation studies
-[이미지 4]
+![image](https://user-images.githubusercontent.com/48814946/106703978-a3f1e580-662e-11eb-80cf-835e34364bf6.png)
+
 - 1) fine tuning에서 auxiliary LM objectives 제거
 - 2) single layer 2047 LSTM과 Transformer의 성능 비교
 - 3) pre-training 없이 target task에서 바로 학습된 모델과 성능 비교
