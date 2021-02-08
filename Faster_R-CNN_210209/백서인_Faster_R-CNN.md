@@ -42,14 +42,14 @@
   - 궁극적인 목표는 Fast R-CNN object detection network과 computation을 공유하는 것이기 때문에, 두 network가 같은 convolutional layers를 공유한다고 가정
   - region proposal을 하기 위해, 컨볼루션 레이어의 마지막 층의 컨볼루션 특징 맵 위로 작은 네트워크를 슬라이딩 함
   - 1. Anchors
-    각 sliding-window location에서 multiple region proposals을 동시에 예측
-    각 location에서 가능한 maximum proposals은 k로 나타냄
-    reg layer에서는 4k 개의 output, cls layer에서는 2k scores output
-    k 개의 proposals은 k reference boxes와 관련하여 파라미터화되고, 이를 anchors라 부름
+    (1) 각 sliding-window location에서 multiple region proposals을 동시에 예측
+    (2) 각 location에서 가능한 maximum proposals은 k로 나타냄
+    (3) reg layer에서는 4k 개의 output, cls layer에서는 2k scores output
+    (4) k 개의 proposals은 k reference boxes와 관련하여 파라미터화되고, 이를 anchors라 부름
     
    1. Translation-Invariant Anchors
-      본 논문에서 제안하는 방법론의 중요한 속성은 translation invariant 임
-      이는 anchor와 anchor에 상대적인 proposal을 제안하는 함수 측면에서 모두 translation-invariant하다는 것
+      -본 논문에서 제안하는 방법론의 중요한 속성은 translation invariant 임
+      -이는 anchor와 anchor에 상대적인 proposal을 제안하는 함수 측면에서 모두 translation-invariant하다는 것
    2. Multi-Scale Anchors as Regression References
      
 
