@@ -18,7 +18,7 @@
 - Region Proposal Networks (RPNs)를 제안하는데 이는 SOTA object detection networks와 convolutional layers를 공유
 - 본 논문에서는 region-based detectors에서 사용하는 convolutional feature maps이 region proposals을 생성하는데에도 사용될 수 있다는 것을 발견
 - pyramids of images or pyramids of filters을 사용하는 기존 방법들과 달리 본 논문에서는 novel "ahchor" boxes를 도입
-- RPNs를 Fast R-CNN과 통합하기 위해, 본 논문에서는 training scheme을 도잆하는데, 이는 region proposa을 위한 fine-tuning과 object detection에 대한 fine-tuning을 번갈아가면서 함
+- RPNs를 Fast R-CNN과 통합하기 위해, 본 논문에서는 training scheme을 도입하는데, 이는 region proposa을 위한 fine-tuning과 object detection에 대한 fine-tuning을 번갈아가면서 함
 
 
 ### Related Work
@@ -47,5 +47,10 @@
     - reg layer에서는 4k 개의 output, cls layer에서는 2k scores output
     - k 개의 proposals은 k reference boxes와 관련하여 파라미터화되고, 이를 anchors라 부름
     
+    - 1. Translation-Invariant Anchors
+      - 본 논문에서 제안하는 방법론의 중요한 속성은 translation invariant 임
+      - 이는 anchor와 anchor에 상대적인 proposal을 제안하는 함수 측면에서 모두 translation-invariant하다는 것
+    - 2. Multi-Scale Anchors as Regression References
+      - 
 
   
