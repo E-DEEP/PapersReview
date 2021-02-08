@@ -51,7 +51,19 @@
        - 본 논문에서 제안하는 방법론의 중요한 속성은 translation invariant 임
        - 이는 anchor와 anchor에 상대적인 proposal을 제안하는 함수 측면에서 모두 translation-invariant하다는 것
     - 2. Multi-Scale Anchors as Regression References
-       - 
-     
+       - multi-scale prediction을 위한 2가지 인기 있는 방법이 있음
+       - 첫번째 방법은 image/feature pyramids에 기반한 방법
+       - 이 방법은 useful하지만 time-consuming
+       - 두번째 방법은 feature map에 multiple scales의 sliding windows를 사용하는 것
+       - 두번째 방법은 보통 첫번째 방법과 함께 적용됨
+       - 본 논문에서 제안하는 anchor-based method는 pyramid of anchors 위에 built 됨, 이는 more cost-efficient함
+       
+ - 2. Training RPNs
+  - RPN은 backpropagation과 SGD를 사용하여 end-to-end로 학습
+  - image-centric sampling strategy를 사용
+  - 랜덤으로 256개의 anchors를 샘플링, 샘플은 positive 와 negative의 비율이 1:1
+ 
+ - 2) Sharing Features for RPN and Fast R-CNN
+ 
 
   
