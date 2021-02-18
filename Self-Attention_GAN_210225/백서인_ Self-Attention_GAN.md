@@ -42,7 +42,7 @@
 - generator의 spectral norm은 매개 변수 크기의 증가를 방지하고 unusual gradient를 방지
 - 본 논문에서는 경험적으로 generator와 discriminator에 대한 spectral norm 적용이 discriminator가 generator에 비해 덜 update하도록 하는 것을 발견
 - 이는 computatinal cost를 매우 줄임
-- 또한 이러한 방법은 학습을 매우 안정적으로 하게 
+- 또한 이러한 방법은 학습을 매우 안정적으로 하게 함
 
 ### References
 https://ml-dnn.tistory.com/7
