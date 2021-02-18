@@ -21,3 +21,12 @@
 - 또한, spectral normalization technique를 generator에 적용하여 generator의 상태를 좋게(?) 함
 
 ### Self-Attention Generative Adversarial Networks
+- 이미지 생성을 위한 대부분의 GAN 모델은 convolutional layers를 사용하여 구축됨
+- Convolution은 local neighborhood 의 information을 처리함
+- 하지만 convolutional layer만 사용하는 것은 이미지의 long range dependencies를 모델링 하기 위해서는 computationally inefficient함
+- 따라서 Self-Attention을 GAN에 적용한 모델을 제안
+- 이는 generator와 discriminator 모두 효과적으로 widely separated spatial regions 간의 관계를 효과적으로 모델링하도록 함
+
+![image](https://user-images.githubusercontent.com/48814946/108315835-5c0eb900-71ff-11eb-96ae-1cc11d74f6e3.png)
+
+- 
