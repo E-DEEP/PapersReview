@@ -26,7 +26,24 @@
 - 하지만 convolutional layer만 사용하는 것은 이미지의 long range dependencies를 모델링 하기 위해서는 computationally inefficient함
 - 따라서 Self-Attention을 GAN에 적용한 모델을 제안
 - 이는 generator와 discriminator 모두 효과적으로 widely separated spatial regions 간의 관계를 효과적으로 모델링하도록 함
+- hinge version의 adversarial loss 사용
 
 ![image](https://user-images.githubusercontent.com/48814946/108315835-5c0eb900-71ff-11eb-96ae-1cc11d74f6e3.png)
 
-- 
+### Techniques to Stabilize the Training of GANs
+- GAN 학습을 안정화하기 위해 두 가지 테크닉 사용
+- 첫째, discriminator 뿐만 아니라 generator에도 spectral norm 사용
+- 둘째, two timescale update rule(TTUR)이 효과적임을 확인하고, 정규화된 dicriminator의 느린 학습을 해결하기 위해 이를 사용
+
+#### Spectral normalization for both generator and discriminator
+- 다른 normaliztion 기법과 비교하여 spectral norm은 추가적인 하이퍼 파라미터 튜닝을 필요로하지 않음
+- 또한, computational cost도 상대적으로 낮음
+- 본 논문에서는 generator에도 spectral norm을 적용하는 것이 GAN의 성능 향상에 도움이 된다고 주장
+- generator의 spectral norm은 매개 변수 크기의 증가를 방지하고 unusual gradient를 방지
+- 본 논문에서는 경험적으로 generator와 discriminator에 대한 spectral norm 적용이 discriminator가 generator에 비해 덜 update하도록 하는 것을 발견
+- 이는 computatinal cost를 매우 줄임
+- 또한 이러한 방법은 학습을 매우 안정적으로 하게 
+
+### References
+https://ml-dnn.tistory.com/7
+
