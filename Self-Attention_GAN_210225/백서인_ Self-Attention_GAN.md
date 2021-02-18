@@ -15,8 +15,9 @@
 - 이에 대한 하나의 가능성있는 설명으로는 이전의 모델들이 convolution에만 너무 크게 의존하였다는 것임
 - convolution operator는 local receptive field를 가지고 있기 때문에, long range dependencies는 오직 몇몇 convolutional layers를 통과한 후에만 처리될 수 있음
 - 이는 long tern dependency를 학습하는 것을 방해함
-- 반면 Self-Attention은 long-ranga dependencies와 computational & statistical efficiency 사이에서 더 나은 balance를 보임
+- 반면 Self-Attention은 long-range dependencies와 computational & statistical efficiency 사이에서 더 나은 balance를 보임
 - 본 논문에서는 Self-Attention GAN을 제안, 이는 Self-Attention 모듈을 convolutional GANs 에 적용한 것임
 - Self-Attention은 convolutions과 보완적이며, long range, multi-level dependencies을 모델링하는데 도움이 됨
 - 또한, spectral normalization technique를 generator에 적용하여 generator의 상태를 좋게(?) 함
-- 
+
+### Self-Attention Generative Adversarial Networks
