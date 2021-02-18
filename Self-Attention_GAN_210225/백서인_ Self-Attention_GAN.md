@@ -4,4 +4,19 @@
 - 본 논문에서는 Self-Attention Generative Adversarial Networks(SAGAN) 제안
 - 이는 이미지 생성 task에서 attention 에 기반하여 long-range dependency modeling 가능
 - SAGAN에서는 cues를 사용하여 모든 feature location으로부터 details을 생성
-- 또한, discriminator는 
+- 또한, discriminator는 이미지의 먼 부분에서 매우 상세한 특징들이 서로 일치하는지 확인 가능
+- 최근 연구는 generator conditioning이 GAN의 성능에 영향을 준다는 것을 보임
+- 이에 기반하여 본 논문에서는 spectral normalization을 GAN의 generator에 적용하였고, 이것이 training dynamics를 향상시킴을 확인
+
+### Introduction
+- Deep convolutional networks에 기반한 GAN 모델이 크게 성공해왔으나, 여전히 몇몇 문제가 남아있음
+- convolutional GANs은 multi-class datasets을 학습할 때 다른 모델에 비해 더 어려움이 있음
+- 예를 들어, ImageNet GAN 모델은 구조적 제약 조건이 거의 없는 이미지 클래스(예: 기하학보다 질감에 의해 구별되는 해양, 하늘 및 풍경 클래스)를 합성하는 데 뛰어나지만, 일부 클래스에서 지속적으로 발생하는 기하학적 또는 구조 패턴을 포착하지 못함 (예를 들어, 개는 사실적인 질감의 털을 갖고 있지만 명확하게 보이는 발은 없음)
+- 이에 대한 하나의 가능성있는 설명으로는 이전의 모델들이 convolution에만 너무 크게 의존하였다는 것임
+- convolution operator는 local receptive field를 가지고 있기 때문에, long range dependencies는 오직 몇몇 convolutional layers를 통과한 후에만 처리될 수 있음
+- 이는 long tern dependency를 학습하는 것을 방해함
+- 반면 Self-Attention은 long-ranga dependencies와 computational & statistical efficiency 사이에서 더 나은 balance를 보임
+- 본 논문에서는 Self-Attention GAN을 제안, 이는 Self-Attention 모듈을 convolutional GANs 에 적용한 것임
+- Self-Attention은 convolutions과 보완적이며, long range, multi-level dependencies을 모델링하는데 도움이 됨
+- 또한, spectral normalization technique를 generator에 적용하여 generator의 상태를 좋게(?) 함
+- 
