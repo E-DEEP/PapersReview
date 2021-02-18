@@ -44,6 +44,13 @@
 - 이는 computatinal cost를 매우 줄임
 - 또한 이러한 방법은 학습을 매우 안정적으로 하게 함
 
+#### Imbalanced learning rate for generator and discriminator updates
+- 지난 연구들에서는 discriminator의 정규화가 종종 GAN의 학습 process를 느리게 함을 보임
+- 실제로 정규화된 discriminator를 사용하는 방법론은 학습하는 동안 generator update step에 비해 배수의 discriminator update를 필요로 함
+- 이러한 문제와는 독립적으로 generator와 discriminator에 sepearte learning rates(TTUR)을 사용하는 방법이 제안되었음
+- 본 논문에서는 TTUR을 정규화된 discriminator의 slow learning 문제를 해결하기 위해 사용
+- 이는 generator steps 당 discriminator steps을 더 적게 사용할 수 있도록 
+
 ### References
 https://ml-dnn.tistory.com/7
 
