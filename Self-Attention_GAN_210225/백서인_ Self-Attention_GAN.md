@@ -51,6 +51,17 @@
 - 본 논문에서는 TTUR을 정규화된 discriminator의 slow learning 문제를 해결하기 위해 사용
 - 이는 generator steps 당 discriminator steps을 더 적게 사용할 수 있도록 
 
+### Experiments
+
+#### Evaluating the proposed stabilization techniques
+![image](https://user-images.githubusercontent.com/48814946/108319906-6c299700-7205-11eb-87b4-d55b4fc04f46.png)
+
+#### Self-attention mechanism
+![image](https://user-images.githubusercontent.com/48814946/108319991-93806400-7205-11eb-9f4d-a6ba1d988df3.png)
+
+#### Comparison with the state-of-the-art
+![image](https://user-images.githubusercontent.com/48814946/108320107-b3178c80-7205-11eb-90c4-d927c2fd4f58.png)
+
 ### References
 https://ml-dnn.tistory.com/7
 
