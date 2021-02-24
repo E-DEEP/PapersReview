@@ -1,10 +1,3 @@
-# U-GAT-IT
-
-Created: Feb 24, 2021 6:56 PM
-Created By: 재원 구
-Last Edited Time: Feb 24, 2021 10:09 PM
-e-deep: E-DEEP
-
 # U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
 
 ## 1. Introduction
