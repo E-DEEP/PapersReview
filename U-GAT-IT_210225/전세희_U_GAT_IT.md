@@ -32,7 +32,8 @@ _Unsupervised_관점에서 즉 데이터들이 짝지어져서 주어지지 않�
 
 그러나 이러한 성공들에도 불구하고, 이전의 방법들은 이미지 도메인간의 모양과 재질 차이의 정도에 따라 다른 성능을 보여주었다. 예를 들어, style transfer에 대해서는 성공적이지만 larger shape change(ex. selfi2anime)와 같은 task에서는 성공적이지 않았다.
 
-[##_Image|kage@bR23Oi/btqYgGv2D8u/7YsnKwZnH9Snmxwv83loiK/img.jpg|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|https://images.app.goo.gl/jF5ayHPkW6WS2suu6||_##]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbR23Oi%2FbtqYgGv2D8u%2F7YsnKwZnH9Snmxwv83loiK%2Fimg.jpg)
 
 그러므로, 이미지를 자르거나 정렬을 맞추는 전처리 단계들이 이러한 문제들을 해결하기 위해 필요했다. 
 
@@ -44,7 +45,7 @@ _Unsupervised_관점에서 즉 데이터들이 짝지어져서 주어지지 않�
 
 Generator와 Discriminator 두 방면에서 각각 설명해보자.
 
-[##_Image|kage@vXlZl/btqYbIBtsmR/OtEJweMsF5kfVltONPDBJ0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="532" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvXlZl%2FbtqYbIBtsmR%2FOtEJweMsF5kfVltONPDBJ0%2Fimg.png)
 
 **Generator **
 
@@ -96,7 +97,7 @@ Auxiliary classifier, 즉 보조적인 역할을 하는 구분자는 source doma
 
 위의 내용을 수식으로 써보자면 다음과 같다.
 
-[##_Image|kage@WUJPG/btqX82Ait6Z/uyw7msE0eef7kWH64ygxhk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="406" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FWUJPG%2FbtqX82Ait6Z%2Fuyw7msE0eef7kWH64ygxhk%2Fimg.png)
 
 weight($w\_{s}^{k}$)를 얻음으로써, 우리는 도메인에 특화된 어텐션 **feature map** $a\_{s}(x)=w\_{s} \* E\_{s}(x)=\\left\\{w\_{s}^{k} \* E\_{s}^{k}(x) \\mid 1 \\leq k \\leq n\\right\\}$ 을 계산할 수 있다. (여기서 $n$은 encoded feature maps의 수를 뜻한다.)
 
@@ -110,7 +111,7 @@ Normalization layers에서 affine transformation 파라미터들을 사용하고
 
 affine transformation은 선형대수에서 배우는 개념인데 간단하게 말하자면 점, 직선, 평면을 보존하는 선형 매핑 방법중 하나라고 생각하면 된다.
 
-[##_Image|kage@cuxHwo/btqYiDloKBp/s5kbzNB6kmsLOudW0lxba1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="821" height="NaN" data-ke-mobilestyle="widthContent"|AdaLIN||_##]
+[image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcuxHwo%2FbtqYiDloKBp%2Fs5kbzNB6kmsLOudW0lxba1%2Fimg.png)
 
 여기서 ${\\mu\_I}, {\\mu\_L}$ 그리고 ${\\sigma\_I}, {\\sigma\_L}$ 은 각각 channel-wise, layer-wise 평균과 표준편차이다. 또한 $\\gamma$와 $\\beta$ 는 위에서 언급했듯이 fully connected layer에 의해 generate된 파라미터들이고 ${\\tau}$는 learning rate, $\\Delta \\rho$ 는 optimizer에 의해 결정되는 gradient를 가리킨다.
 
@@ -152,7 +153,7 @@ Sample x가 주어졌을 때, $D\_t(x)$는 $w\_{D\_t}$를 $\\eta\_{D\_t}(x)$에 
 
 이 loss는 translated images의 분포를 target image 분포에 맞추기 위해 사용된다.
 
-[##_Image|kage@bytr0O/btqYhyxXqBs/pAgbK3iMUTb0GaGK6GC9A0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|Least Squares GAN||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbytr0O%2FbtqYhyxXqBs%2FpAgbK3iMUTb0GaGK6GC9A0%2Fimg.png)
 
 #### **2) Cycle loss**
 
@@ -160,7 +161,7 @@ Sample x가 주어졌을 때, $D\_t(x)$는 $w\_{D\_t}$를 $\\eta\_{D\_t}(x)$에 
 
 _**Cycle consistency constraint :**_ 한 이미지 x가 주어졌을 때, $X\_s$로부터 $X\_t$, 그리고 $X\_t$에서 $X\_s$로의 순차적인 translation(cycle형태) 후에, 이미지는 성공적으로 원래의 도메인으로 변환되어야 한다.
 
-[##_Image|kage@dBK4PA/btqX6f7L04M/qO8Z9zDH3GD67mgIrkQli0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBK4PA%2FbtqX6f7L04M%2FqO8Z9zDH3GD67mgIrkQli0%2Fimg.png)
 
 #### **3) Identity loss**
 
@@ -170,19 +171,19 @@ _**Identity consistency constraint :**_ target domain에서 한 이미지 x가 
 
 즉, 이미 target 도메인에 있는 이미지를 target domain으로 보낸다고 해도 달라지지 않아야한다.
 
-[##_Image|kage@cTuAgl/btqYgHvbtPK/Kk94KeIR00zUHLNe5P39k0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcTuAgl%2FbtqYgHvbtPK%2FKk94KeIR00zUHLNe5P39k0%2Fimg.png)
 
 #### **4) CAM loss**
 
 보조적인 classifier $\\eta\_s$와 $\\eta\_{D\_t}$로부터 정보를 얻음으로써 한 이미지$x \\in\\left\\{X\_{s}, X\_{t}\\right\\}$가 주어졌을 때 $G\_{s \\rightarrow t}$와 $D\_t$는 개선해야하는 위치와 현재 상태에서 두 개의 도메인간의 차이를 만드는 것이 무언인지 알게 된다.
 
-[##_Image|kage@cJG6SJ/btqYkaXEtmf/b6sDzeFvKx09zOQpcXtXJ0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcJG6SJ%2FbtqYkaXEtmf%2Fb6sDzeFvKx09zOQpcXtXJ0%2Fimg.png)
 
 #### **✔️ Full objective**
 
 마침내 이 objective를 최적화함으로써 이 논문에서의 모델은 encoders, decoders, discriminators 그리고 auxiliary classifiers 모두를 학습시키게 된다.
 
-[##_Image|kage@cLhJ5g/btqYecCnMOg/fWpoPlEdgcJSKIw1CMXNA1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="831" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcLhJ5g%2FbtqYecCnMOg%2FfWpoPlEdgcJSKIw1CMXNA1%2Fimg.png)
 
 ---
 
@@ -208,4 +209,4 @@ _**Identity consistency constraint :**_ target domain에서 한 이미지 x가 
 
 user study의 결과를 아래에서 확인할 수 있다.
 
-[##_Image|kage@X21h2/btqYxo2usdL/rN8SK7FOhNLM3hYXhmBJt0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FX21h2%2FbtqYxo2usdL%2FrN8SK7FOhNLM3hYXhmBJt0%2Fimg.png)
