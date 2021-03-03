@@ -1,6 +1,6 @@
 # Self-Attention Generative Adversarial Networks
 
-##1. Introduction
+## 1. Introduction
 
 - Problem:  
   
@@ -17,7 +17,7 @@
   뿐만 아니라 generator에도 적용하였음.
                 
   
-##2. Self-Attention Generative Adversarial Networks 
+## 2. Self-Attention Generative Adversarial Networks 
 : 어떻게 Self-Attention을 GAN에 적용하였는지에 대한 설명
 
 [ 모델 사진]
@@ -32,7 +32,7 @@
 
 
 
-##3. Techniques to Stabilize the Training of GANS
+## 3. Techniques to Stabilize the Training of GANS
 : GAN학습 시에 안정화시키기위한 두가지 방법을 제안함
 
 1. spectral normalization을 generator와 dicriminator 모두에 적용함 
