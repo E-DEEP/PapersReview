@@ -28,7 +28,7 @@ Attetntion 레이어의 시각화는 generator가 고정된 모양의 local regi
 
 아래의 예시를 보면 이해할 수 있는데, 특정 window에서의 convolution이 일어나기 때문에 다른 영역과 결합(?), dependency를 처리하려면 몇개의 층을 지나야 가능하다. (1,1)에서의 픽셀이 (5,5)의 픽셀과 계산되려면 layer 3에서 가능하다.
 
-[##_Image|kage@cGivvM/btqYZ7lNuCM/gJEAzlNPHSc7xrXorz5b40/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="390" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcGivvM%2FbtqYZ7lNuCM%2FgJEAzlNPHSc7xrXorz5b40%2Fimg.png)
 
 이는 long-term dependency를 학습하는 것을 여러 이유로 방해한다.
 
@@ -87,8 +87,7 @@ GAN은 많은 image-to-image translation, image super-resolution 그리고 text-
 ---
 
 projection discriminator는 아래의 그림의 (d)를 보면 이해가 갈텐데
-
-[##_Image|kage@bGV3u3/btqZeg3YiMp/lhhkUkXYbQOLL9BhW4TJMk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|CGANS with Projection Discriminator||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGV3u3%2FbtqZeg3YiMp%2FlhhkUkXYbQOLL9BhW4TJMk%2Fimg.png)
 
 Discriminator가 image가 진짜인지 가짜인지 분류할 때 inner product(projection 과정)를 통과하여 분류되는 방법이다.
 
@@ -100,7 +99,7 @@ Discriminator가 image가 진짜인지 가짜인지 분류할 때 inner product(
 
 아래는 트랜스포머의 모델 구조인데 self-attention이 트랜스포머의 핵심이다.
 
-[##_Image|kage@mfZmD/btqY7n4mWxr/OwAY87GlVmBKPowKkM6o9k/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|Attention is All You Need||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmfZmD%2FbtqY7n4mWxr%2FOwAY87GlVmBKPowKkM6o9k%2Fimg.png)
 
 Transformer논문(Attention is All You Need)에서 저자는 기계번역 모델이 오직 self-attention 모델만 사용함으로써 SOTA 수준의 결과를 이룬 것을 보여주었다. 다른 논무에서는 Image Transformer 모델을 제안했는데, self-attention을 이미지생성을 위해 autoregressive 모델에 추가하기 위함이였다. 또 다른 논문은 self-attention을 비디오 시퀀스에서 spatial-temporal dependency를 모델링 하기위해 non-local operation으로 형태화하였다.
 
@@ -116,7 +115,8 @@ Transformer논문(Attention is All You Need)에서 저자는 기계번역 모델
 
 대부분의 이미지 생성에 사용되는 GAN 기반의 모델들은 convolutional layers를 사용하는데, convolution은 정보를 local neighborhood안에서 처리한다.(window 단위로 convolution하기 때문에)
 
-[##_Image|kage@RtLES/btqY5L5wBGq/tFebMCqGboPBTmwekv6IQ0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="538" height="NaN" data-ke-mobilestyle="widthContent"|convolution 시각화(https://images.app.goo.gl/zWcfpuTQgmHcym8E6)||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRtLES%2FbtqY5L5wBGq%2FtFebMCqGboPBTmwekv6IQ0%2Fimg.png)
+
 
 그렇기 때문에 convolution 레이어들만 사용하는 것은 long-range dependency를 모델링 할 때 계산 측면에서 비효율적이다. 
 
@@ -126,8 +126,7 @@ Transformer논문(Attention is All You Need)에서 저자는 기계번역 모델
 
 이는 generator와 discriminator 모두가 효과적으로 **멀리 떨어진 영역과의 관계를 모델링하게 해준다**. (long-range dependency)
 
-[##_Image|kage@xA2Sh/btqZeholXB7/9C2qFUqJ8oOS7ATztZQU50/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|논문에서 나온 self-attention&nbsp;||_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxA2Sh%2FbtqZeholXB7%2F9C2qFUqJ8oOS7ATztZQU50%2Fimg.png)
 이전의 hidden layer부터 나온 image feature vector $x \\in \\mathbb{R}^{{C} \\times N}$는 어텐션을 계산하기 위해 처음에 두 개의 feature spaces $f, g$로 변환되는데, $f(x) = W\_f x$, $g(x) = W\_g x$이다
 
 $$\\beta\_{j, i}=\\frac{\\exp \\left(s\_{i j}\\right)}{\\sum\_{i=1}^{N} \\exp \\left(s\_{i j}\\right)}, \\text { where } s\_{i j}=f\\left(\\boldsymbol{x}\_{i}\\right)^{T} \\boldsymbol{g}\\left(\\boldsymbol{x}\_{\\boldsymbol{j}}\\right)$$
@@ -208,9 +207,8 @@ Spectral normalization을 generator와 discriminator 모두에 적용하는 것�
 
 <TTUR>: 간단하게만 말하자면 learning rate를 generator와 discriminator에 각각 다르게 적용하는 것이다. 각자의 learning rate는 n에 대한 함수로 표현된다.
 
-[##_Image|kage@bkmJ8l/btqY9ZvhXgs/1f5uR8vim1jkGiGk5ZLs00/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|https://simonezz.tistory.com/manage/newpost/77?type=post&amp;returnURL=https%3A%2F%2Fsimonezz.tistory.com%2F77||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbkmJ8l%2FbtqY9ZvhXgs%2F1f5uR8vim1jkGiGk5ZLs00%2Fimg.png)
 
-TTUR에 대해서는 따로 공부를 해서 블로깅을 해야겠다. 
 
 ---
 
@@ -248,23 +246,26 @@ SAGAN은 또한 conditional batch normalization을 generator와 discriminator의
 
 각각의 방법들을 적용한 metric의 결과는 다음과 같다.
 
-[##_Image|kage@dLl1o3/btqY7ooNMqE/JbldT3YaQztUeAnNr4VpE1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdLl1o3%2FbtqY7ooNMqE%2FJbldT3YaQztUeAnNr4VpE1%2Fimg.png)
+
 
 이미지의 결과는 다음과 같다.
 
-[##_Image|kage@sR1Mh/btqY5MXG4R0/JkdNQeXUiawyGAukKjHNUK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsR1Mh%2FbtqY5MXG4R0%2FJkdNQeXUiawyGAukKjHNUK%2Fimg.png)
 
 GAN에 self-attention과 Residual block을 각각 적용한 결과의 지표는 다음과 같다. 두 지표에서 모두 SAGAN이 우수함을 확인할 수 있다.
 
-[##_Image|kage@dy0MpH/btqY90Oqcjl/d5DBT3KSEsAFlkV6GKOwz1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdy0MpH%2FbtqY90Oqcjl%2Fd5DBT3KSEsAFlkV6GKOwz1%2Fimg.png)
 
 Attention map을 시각화한 이미지로는 다음과 같다.
 
-[##_Image|kage@cNnfRZ/btqZcsKJnd9/otZ1LTKFSexAjE10QMrtZ0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcNnfRZ%2FbtqZcsKJnd9%2FotZ1LTKFSexAjE10QMrtZ0%2Fimg.png)
 
 다른 SOTA 모델들과의 결과는 다음의 이미지로 비교할 수 있다.
 
-[##_Image|kage@bp36lX/btqY8HBC48p/5P0dDAXRgkslawam8IhhYk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbp36lX%2FbtqY8HBC48p%2F5P0dDAXRgkslawam8IhhYk%2Fimg.png)
+
 
 ---
 
