@@ -36,7 +36,7 @@
 
 ### Cross-Task Transfer
 - 동일 domain의 다른 task 에 대해 성능 평가(Transfer-TAPT)
-- 실험결과 TAPT는 single task performance에 최적화됨을 확인
+- 실험결과 TAPT는 single task performance에 최적화됨을 확인(즉, 성능 저하됨)
 ![image](https://user-images.githubusercontent.com/48814946/110468548-cbe7d380-811b-11eb-82e0-603908524038.png)
 
 ### Augumenting Training Data for Task-Adaptive Pretraining
@@ -44,5 +44,21 @@
 - 첫째, 3개의 task(RCT, HYPERPARTISAN, and IMDB)에 대해 human-curated corpus의 unlabeled data로부터 생성된 large pool 사용(Human Cruated-TAPT)
 - 둘째, extra human-curated data가 없을 때, 도메인의 large unlabeled data로부터 연관있는 unlabeled data를 추출하는 방법 제안(Automated Data Selection for TAPT)
 
+#### Human Curated-TAPT
+- target task의 labeled data와 같은 distribution의 unlabeled target task corpus (by human)
+- 모든 task에서 DAPT 후 Curated-TAPT을 적용한 경우 가장 좋은 성능을 보임
+![image](https://user-images.githubusercontent.com/48814946/110470745-94c6f180-811e-11eb-9ad5-4ffa2a022f71.png)
 
+#### Automated Data Selection for TAPT
+- task setup 당시에 large unlabeled corpus 조차 풀리지 않는 경우, 자동으로 관련있는 데이터를 찾아서 이를 기반으로 학습하게 되면 어떨지를 실험
+- large in-domain corpus로부터 관련있는 unlabeled text를 추출하는 간단한 unsupervised 방법
+  - nearest neighbors selection (knn-TAPT)
+  - random (RAND-TAPT)
+- Results
+  - 모든 경우에서 knn-TAPT이 TAPT보다 outperform함을 확인
+  - RAND-TAPT은 일반적으로 knn-TAPT보다 성능이 낮음
+  - knn-TAPT에서 k의 수를 증가시킬수록 성능도 비례하여 향상됨
+  ![image](https://user-images.githubusercontent.com/48814946/110471465-7f9e9280-811f-11eb-8dec-c773ea53d9a2.png)
 
+### References
+- https://inmoonlight.github.io/2020/11/30/Don-t-stop-pretraining/
