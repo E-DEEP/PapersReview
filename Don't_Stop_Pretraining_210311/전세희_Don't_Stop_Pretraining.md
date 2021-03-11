@@ -175,25 +175,6 @@ RoBERTA를 NEWS 데이터에 적용하는 것은 REVIEWS tasks에 적용하는 �
 
 전통적인 도메인 경계선을 넘는 pretraining이 더 효과적인 DAPT를 낳을 수 있다. 일반적으로, 데이터의 출처는 사전학습 과정을 디자인할 때와 일반화 가능성을 테스트하기 위한 새로운 벤치마크들을 생성할 때 중요하다.
 
-아래의 포스팅에서 이어집니다.
-
-
-[simonezz.tistory.com/78](https://simonezz.tistory.com/78)
-
-[
-
-\[논문 리뷰\] Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks - 1
-
-회사에서 프로젝트를 진행하면서 Domain adaption에 관한 질문을 텐플코에 올렸다가 추천받은 논문인데 마침 스터디 주제 논문도 이 논문이라 정리하는 겸 블로그에 작성하게 되었다. 발표된 이후
-
-simonezz.tistory.com
-
-
-
-](https://simonezz.tistory.com/78)
-
-위의 포스팅에서 이어지는 내용입니다.
-
 ---
 
 ## **Task-Adaptive Pretraining**
