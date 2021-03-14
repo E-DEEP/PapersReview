@@ -23,5 +23,17 @@
 
 
 ### Unified Detection
-- 
+- YOLO는 input image를 SxS grid로 나눔
+- 만약 object의 center가 하나의 grid cell 안에 속하게 되면, 그 grid cell은 해당 object를 detection해야 할 책임이 있음
+- 각 grid cell은 B개의 bboxes와 그 boxes에 대한 confidence scores를 예측
+- confidence scores는 모델이 그 box가 object를 포함하고 있는지에 대해 얼만큼 확신이 있는지, 그리고 그 예측에 대해 얼만큼 정확하다고 생각하는지를 반영함
+- 만약 cell에 아무 object도 없으면 confidence score는 zero가 됨
+- 각 grid cell은 또한 C 개의 conditional class probabilities를 예측
+- 이 probabilities는 grid가 object를 포함하고 있을 확률을 의미
+
+<img width="530" alt="image" src="https://user-images.githubusercontent.com/48814946/111060375-cacdf200-84df-11eb-9a35-088b496f042e.png">
+
+- YOLO는 S = 7, B = 2, C = 20(PASCAL VOC -> 20 label), 따라서 final prediction = 7 x 7 x 30 tensor 
+
+#### Network Design
   
