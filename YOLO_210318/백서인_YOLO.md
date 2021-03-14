@@ -66,10 +66,10 @@
 - YOLO는 single network evaluation만 필요로하기 때문에 매우 빠름
 
 #### Limitations of YOLO
-(1) strong spatial contraints -> 왜냐하면 각 grid cell은 오직 2개의 boxes만 예측하고 하나의 class만 갖기 때문 -> 이러한 spatial constraints는 우리의 모델이 예측할 수 있는 object의 수를 제한
-(2) 우리의 모델은 데이터로부터 bboxes에 대한 예측을 배우기 때문에, 새로운 혹은 unusual한 aspect ratios 혹은 configurations에 대해 일반화 어려움
-(3) 또한 모델이 bboxes를 예측하기 위해 상대적으로 "coarse features"을 사용
-(4) small bboxes와 large bboxes의 error를 동일하게 취급
+- strong spatial contraints -> 왜냐하면 각 grid cell은 오직 2개의 boxes만 예측하고 하나의 class만 갖기 때문 -> 이러한 spatial constraints는 우리의 모델이 예측할 수 있는 object의 수를 제한
+- 우리의 모델은 데이터로부터 bboxes에 대한 예측을 배우기 때문에, 새로운 혹은 unusual한 aspect ratios 혹은 configurations에 대해 일반화 어려움
+- 또한 모델이 bboxes를 예측하기 위해 상대적으로 "coarse features"을 사용
+- small bboxes와 large bboxes의 error를 동일하게 취급
 
 ### Experiments
 #### Comparison to Other Real-Time Systems
