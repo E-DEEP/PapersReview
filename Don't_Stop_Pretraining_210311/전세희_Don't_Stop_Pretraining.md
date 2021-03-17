@@ -1,5 +1,5 @@
 
-이미지 깨지는건 내일 수정하겠습니당
+
 
 ## **Abstract**
 
@@ -42,7 +42,10 @@ _**(**__**예를 들어, 미스터리 소설에서는 사용하는 언어 분포
 
 또한, continued pretraining의 장점이 사용가능한 **라벨링된 task 데이터의 양**과 같은 요소나 **오리지날 도메인과 타겟 도메인과의 거리**와 같은 요소에 따라 어떻게 다른지에 대해서도 알려지지 않았다. 
 
-[##_Image|kage@NFiAt/btqZlQeSjjB/YGhPodQkpCM899LW8DygR0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="538" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FNFiAt%2FbtqZlQeSjjB%2FYGhPodQkpCM899LW8DygR0%2Fimg.png)
+
+
 
 이 논문에서는 하나의 high performing 모델에 대해서 이러한 의문을 처리하였는데, 바로 **RoBERTA**이다.
 
@@ -95,7 +98,9 @@ RoBERTA의 사전학습 말뭉치가 많은 곳에서부터 왔음에도 불구�
 
 위에서 언급한 4가지 도메인에 대해 실험을 하였다. 아래의 표에서 각 도메인에 대해 사용한 사전학습 말뭉치를 확인할 수 있다.
 
-[##_Image|kage@bBKvgR/btqZlO2uiuM/WB2qN4b2RPoZiCIVQx2maK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbBKvgR%2FbtqZlO2uiuM%2FWB2qN4b2RPoZiCIVQx2maK%2Fimg.png)
+
 
 ### **1> Analyzing Domain Similarity**
 
@@ -103,7 +108,9 @@ DAPT를 하기전에, 이 저자들은 우선 RoBERTA의 pretraining 도메인�
 
 이러한 도메인 사전간의 유사도(overlapping)을 아래에서 확인할 수 있다.
 
-[##_Image|kage@Wf2Dy/btqZqo2y3Z2/KknS8B0BUYzfLOCj2fQ8U0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="517" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FWf2Dy%2FbtqZqo2y3Z2%2FKknS8B0BUYzfLOCj2fQ8U0%2Fimg.png)
+
+
 
 RoBERTA의 사전학습 domain이 NEWS와 REVIEWS와 큰 overlap을 보임을 확인할 수 있다.
 
@@ -119,7 +126,9 @@ _**더 도메인이 다를수록, 더 DAPT에 대한 잠재력이 높다.**_
 
 각 도메인에서 2가지의 텍스트 분류 tasks를 고려하였는데, 아래의 표에서 확인할 수 있다.
 
-[##_Image|kage@b8vCiK/btqZywzG6zY/Z95KQ855udcVD5FETLaHh0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb8vCiK%2FbtqZywzG6zY%2FZ95KQ855udcVD5FETLaHh0%2Fimg.png)
+
+
 
 논문에서의 tasks는 high resource와 low resource 둘 다를 대표한다.(즉, 두 tasks중 하나는 low resource, 다른 하나는 high resource)
 
@@ -135,7 +144,7 @@ _**더 도메인이 다를수록, 더 DAPT에 대한 잠재력이 높다.**_
 
 테스트 결과는 다음과 같다.
 
-[##_Image|kage@XTQs1/btqZtzjpIBp/Qa5SRGGfmNQaFH5Q3EKzl1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="472" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXTQs1%2FbtqZtzjpIBp%2FQa5SRGGfmNQaFH5Q3EKzl1%2Fimg.png)
 
 모든 도메인에서 ROBERTA보다 우수함을 확인할 수 있다.
 
@@ -167,7 +176,7 @@ DAPT에 대한 분석은 **어떻게 task data가 특정 도메인에 지정되�
 
 (왼쪽이 REVIEWS, 오른쪽이 NEWS) -> 사실 이것도 keyword 분석이므로 정량적인 분석이 아닌가 싶다.
 
-[##_Image|kage@k4ubx/btqZrgLde3j/24y16S4sBul7mybfX9dw01/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="850" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fk4ubx%2FbtqZrgLde3j%2F24y16S4sBul7mybfX9dw01%2Fimg.png)
 
 RoBERTA를 NEWS 데이터에 적용하는 것은 REVIEWS tasks에 적용하는 것보다 악영향을 끼치지 않는다.
 
@@ -215,7 +224,7 @@ _(Task-adaptive pretraining (TAPT) refers to pre- training on the unlabeled trai
 
 아래 표의 TAPT column에서 결과를 확인할 수 있다.
 
-[##_Image|kage@bPGzty/btqZLsbWEVG/1RipptlfzzV81YO2C2Oz8K/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="736" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPGzty%2FbtqZLsbWEVG%2F1RipptlfzzV81YO2C2Oz8K%2Fimg.png)
 
 TAPT는 일관되게 RoBERTA의 성능을 뛰어넘었는데, 심지어 NEWS 도메인(RoBERTA의 사전학습에서 쓰인)에서도 TAPT의 성능이 더 나았다. 이는 task adaptation의 이점을 보여주는 경우이다. 
 
@@ -245,7 +254,7 @@ RoBERTA를 가지고 DAPT를 한 후 TAPT하는 방식이다. 사전 훈련의 �
 
 4개의 도메인에서의 tasks에 대한 결과는 아래의 표에서 확인할 수 있다.
 
-[##_Image|kage@z66ke/btqZRso8pyf/oBVQiG3ETIScCdrJP7jECk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fz66ke%2FbtqZRso8pyf%2FoBVQiG3ETIScCdrJP7jECk%2Fimg.png)
 
 위의 결과를 통해, TAPT는 하나의 task performance에 대해 최적으로 성능을 내는 것을 알 수 있다.
 
@@ -301,7 +310,7 @@ IMDB에 대해서는 task annotators에 의해 일일이 curated된 추가적인
 
 논문에서는 Curated-TAPT를 TAPT와 DAPT+TAPT에 비교하였다. 아래의 표에서 결과를 확인할 수 있다.
 
-[##_Image|kage@bCyGej/btqZJ5JtLkZ/vV8nIpLwylsWIRaAgXKRHk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="678" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbCyGej%2FbtqZJ5JtLkZ%2FvV8nIpLwylsWIRaAgXKRHk%2Fimg.png)
 
 Curated-TAPT는 이전의 결과들보다 모든 3개의 데이터셋에서 더 나은 성능을 보여주었다. 
 
@@ -343,7 +352,7 @@ task와 domain 모두에서 텍스트 임베딩을 처리하기 위해 VAMPIRE�
 
 결과는 다음과 같다.
 
-[##_Image|kage@5FkrW/btqZPG9xwrI/kSi0exVnEFuoU3QStsymLK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="658" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5FkrW%2FbtqZPG9xwrI%2FkSi0exVnEFuoU3QStsymLK%2Fimg.png)
 
 결과를 통해 knn 방법을 통해 데이터를 추가한 kNN-TAPT가 TAPT을 모든 경우에서 이긴 것을 볼 수 있다.
 
@@ -363,7 +372,8 @@ k를 증가시킬수록 kNN-TAPT의 성능은 점점 증가했고 DAPT의 성능
 
 논문 실험을 한눈에 정리하자면 다음과 같다.
 
-[##_Image|kage@xg5Q7/btqZLsjSov3/USwOHVuwfyZ32j4VKVWm6k/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="673" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fxg5Q7%2FbtqZLsjSov3%2FUSwOHVuwfyZ32j4VKVWm6k%2Fimg.png)
 
 ---
  
