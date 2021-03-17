@@ -44,7 +44,8 @@ YOLO는 위에서도 언급했듯이 object detection을 classification 관점�
 
 YOLO는 간단하다. 아래의 그림에서 대략적인 방법론을 알 수 있다.
 
-[##_Image|kage@Z0DC4/btq0ehgCKjo/3YKzssmjKCSsQwMj7af0H0/img.png|alignCenter|width="668" height="NaN" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|yolo 논문에서 가져온 이미지||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZ0DC4%2Fbtq0ehgCKjo%2F3YKzssmjKCSsQwMj7af0H0%2Fimg.png)
+
 
 하나의 convolutional network가 동시에 여러개의 **bounding boxe**s와 그에 대한 **class 확률값**을 계산한다.
 
@@ -122,11 +123,14 @@ YOLO는 box수인 B와 상관없이 grid cell당 오직 class 확률값의 한 s
 
 즉 해당 박스가 진짜로 물체를 가진 박스이며 i번째 class의 물체를 가졌을 확률(confidence score)이 된다.
 
-[##_Image|kage@dCfGWs/btq0g1rZl4m/Tc3dmDp1WWXPJKiPbVNIk0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdCfGWs%2Fbtq0g1rZl4m%2FTc3dmDp1WWXPJKiPbVNIk0%2Fimg.png)
+
 
 이러한 score는 박스에서 나타나는 물체의 class에 대한 확률과 얼마나 box가 object와 딱 맞는지에 대한 확률을 의미한다.
 
-[##_Image|kage@3Hl2h/btq0bwzWG7r/q0N3iBYeLU9rFRDioatsk1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3Hl2h%2Fbtq0bwzWG7r%2Fq0N3iBYeLU9rFRDioatsk1%2Fimg.png)
+
+
 
 YOLO를 PASCAL VOC에 대해서 평가하기위해, 실험에서는 S=7, B=2로 사용하였다. 
 
@@ -142,7 +146,7 @@ YOLO의 네트워크 구조는 이전 classification 모델인 GooGleNet으로�
 
 GooGleNet에서 사용한 inception 모듈 대신 YOLO에서는 간단하게 1X1 reduction 레이러을 사용한 후 3X3 convolutional 레이어를 사용하였다.
 
-[##_Image|kage@bcuaAW/btq0jNzMYlW/mL7wT9KHY8AyLfOCQkTK50/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbcuaAW%2Fbtq0jNzMYlW%2FmL7wT9KHY8AyLfOCQkTK50%2Fimg.png)
 
 논문에서는 또한 YOLO의 빠른 버전또한 학습시켰는데 이는 좀 더 적은 수의 convolutional 레이어를 가진 neural network를 사용한다.(기존의 24개의 레이어에서 9개로 줄인 버전) 
 
@@ -162,7 +166,7 @@ Pretraining 후에 detection을 수행하게 되는데, 이전의 한 연구에�
 
 또한, final layer에는 linear activate function를 사용하고 다른 layers에는 다음과 같은 leaky rectified linear action를 사용한다.
 
-[##_Image|kage@7o9Qg/btq0fjzQrOv/qohim59f0KzTODOSUuOY6k/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="665" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F7o9Qg%2Fbtq0fjzQrOv%2Fqohim59f0KzTODOSUuOY6k%2Fimg.png)
 
 모델에서 나온 output에서 sum-squared error를 최적화하는 방식으로 학습이 되는데, sum-squared error를 사용하는 이유는 최적화하기가 쉽기 때문이다. 
 
@@ -194,7 +198,7 @@ Error metric이 큰 박스에서의 small deviation를 작은 박스에서 보�
 
 Loss function은 다음과 같다.
 
-[##_Image|kage@Ydch1/btq0myJ50et/E8aHux74dvXDPCWk50vXb0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FYdch1%2Fbtq0myJ50et%2FE8aHux74dvXDPCWk50vXb0%2Fimg.png)
 
 ---
 
@@ -276,13 +280,13 @@ Bounding box의 사이즈에 관계없이 error를 다루는데 같은 error라�
 
 앞서 언급했듯이 YOLO는 R-CNN의 background false positives의 수를 줄여 큰 성능 향상을 하게 했다.
 
-[##_Image|kage@bBsiJ3/btq0kDZeJMd/87tr5tNMyARvI2uytI3xtk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbBsiJ3%2Fbtq0kDZeJMd%2F87tr5tNMyARvI2uytI3xtk%2Fimg.png)
 
 위의 결과표를 통해 YOLO의 우수함을 알 수 있다.
 
 또한, Fast R-CNN과의 error도 비교하였는데,
 
-[##_Image|kage@dv6Hn8/btq0pxQ0JP8/VEgcVRRBTry1IQ7OwkCC8K/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdv6Hn8%2Fbtq0pxQ0JP8%2FVEgcVRRBTry1IQ7OwkCC8K%2Fimg.png)
 
 빨간부분의 background부분에서 YOLO가 더 error가 적음을 보여준다.
 
@@ -292,7 +296,7 @@ Bounding box의 사이즈에 관계없이 error를 다루는데 같은 error라�
 
 그래서 저자들은 합친 결과도 공개하였다.
 
-[##_Image|kage@Ky3JU/btq0mychhrJ/6kkkGCrAwjENGW8bXOJf21/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FKy3JU%2Fbtq0mychhrJ%2F6kkkGCrAwjENGW8bXOJf21%2Fimg.png)
 
 모든 R-CNN이 예측한 bounding box에서 YOLO또한 비슷하게 예측을 하고 있는지 체크하고, 만약 그렇다면 YOLO가 예측한 확률과 두 박스간의 겹치는 면적을 기반으로 boost를 주는 방식이다.
 
@@ -302,13 +306,13 @@ Bounding box의 사이즈에 관계없이 error를 다루는데 같은 error라�
 
 기본 YOLO모델은 다른 SOTA 시스템보다 특정 카테고리에서 낮게 나왔음을 확인할 수 있다. 이는 이전에 언급한 YOLO의 한계점 때문인데, 이와달리 YOLO를 Fast R-CNN와 합친 버전은 우수한 성능을 보여주었다.
 
-[##_Image|kage@ou3IA/btq0nN771cs/p1vViJgokiRInKxWKkUnrK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fou3IA%2Fbtq0nN771cs%2Fp1vViJgokiRInKxWKkUnrK%2Fimg.png)
 
 #### **3) 마지막으로, YOLO가 _새로운 도메인_에 대해서 다른 모델들보다 우수함을 확인한다.**
 
 아래에서 확인할 수 있듯이 다른 domain에서의 detection이 다른 system보다 월등히 좋다.
 
-[##_Image|kage@myZ9s/btq0nOlEtnQ/IleE74kGzan7ZxG8WjjbO1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmyZ9s%2Fbtq0nOlEtnQ%2FIleE74kGzan7ZxG8WjjbO1%2Fimg.png)
 
 ---
 
@@ -320,6 +324,6 @@ Fast YOLO는 가장 빠른 버전으로 실시간 탐지가 가능하게 한다.
 
 아래에서 결과를 직접 눈으로 확인할 수 있다.
 
-[##_Image|kage@dPI9fn/btq0mypN3DL/fkUDVsOIL4nFtjxVNeU4B1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdPI9fn%2Fbtq0mypN3DL%2FfkUDVsOIL4nFtjxVNeU4B1%2Fimg.png)
 
 ---
