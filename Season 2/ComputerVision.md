@@ -21,7 +21,11 @@
 
 
 ## 백서인
-
+- StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks [paper](https://arxiv.org/pdf/1812.04948v3.pdf)
+- StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN [paper](https://arxiv.org/pdf/1912.04958v2.pdf)
+- YOLOv4: Optimal Speed and Accuracy of Object Detection [paper](https://arxiv.org/abs/2004.10934)
+- EfficientNet-L2: Meta Pseudo Labels [paper](https://arxiv.org/pdf/2003.10580v4.pdf)
+- SSD: Single Shot MultiBox Detector [paper](https://arxiv.org/pdf/1512.02325.pdf)
 
 
 ## 신한이
@@ -63,7 +67,11 @@
 
 
 ## 백서인
-
+- ELMo: https://github.com/allenai/bilm-tf
+- ALBERT: https://github.com/google-research/albert
+- XLNet: https://github.com/zihangdai/xlnet
+- GPT-2: https://github.com/openai/gpt-2 , https://github.com/graykode/gpt-2-Pytorch 
+- GPT-3: https://github.com/openai/gpt-3 (코드는 없음)
 
 
 ## 신한이
