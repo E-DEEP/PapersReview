@@ -91,3 +91,9 @@
 
 ## 한지수
 
+1. MixMatch
+2. ReMixMatch [Github](https://github.com/google-research/remixmatch)
+3. FixMatch [Github](https://github.com/google-research/fixmatch)
+4. Unsupervised Domain Adaptation by Backpropagation: DANN [site](http://sites.skoltech.ru/compvision/projects/grl/) [ old code](https://github.com/ddtm/caffe/tree/grl) [Pytorch implementation](https://github.com/wogong/pytorch-dann)
+5. Mask R-CNN [code](https://github.com/facebookresearch/Detectron)
+
