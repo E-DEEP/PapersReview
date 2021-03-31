@@ -55,7 +55,7 @@
 2. StyleGAN2 (https://github.com/NVlabs/stylegan2) // Original StyleGAN도 좋아용
 3. YOLO : [A minimal PyTorch implementation of YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3) 공식은 아닙니다
 4. Pix2Pix (https://github.com/phillipi/pix2pix)
-5. DeepLab v3 [pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception] 공식은 아닙니다
+5. DeepLab v3 [pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception) 공식은 아닙니다
 
 
 ## 류정현
