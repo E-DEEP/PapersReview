@@ -17,7 +17,11 @@
 
 
 ## 백서인
-
+1. ELMo: Deep contextualized word representations [paper](https://arxiv.org/pdf/1802.05365.pdf)
+2. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations [paper](https://arxiv.org/pdf/1909.11942.pdf)
+3. XLNet: Generalized Autoregressive Pretraining for Language Understanding [paper](https://arxiv.org/pdf/1906.08237.pdf)
+4. GPT-2: Language Models are Unsupervised Multitask Learners [paper](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
+5. GPT-3: Language Models are Few-Shot Learners [paper](https://arxiv.org/pdf/2005.14165v4.pdf)
 
 
 ## 신한이
@@ -55,7 +59,11 @@
 
 
 ## 백서인
-
+1. ELMo: https://github.com/allenai/bilm-tf
+2. ALBERT: https://github.com/google-research/albert
+3. XLNet: https://github.com/zihangdai/xlnet
+4. GPT-2: https://github.com/openai/gpt-2 , https://github.com/graykode/gpt-2-Pytorch 
+5. GPT-3: https://github.com/openai/gpt-3 (코드는 없음)
 
 
 ## 신한이
