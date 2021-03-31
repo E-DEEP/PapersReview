@@ -67,11 +67,11 @@
 
 
 ## 백서인
-1. ELMo: https://github.com/allenai/bilm-tf
-2. ALBERT: https://github.com/google-research/albert
-3. XLNet: https://github.com/zihangdai/xlnet
-4. GPT-2: https://github.com/openai/gpt-2 , https://github.com/graykode/gpt-2-Pytorch 
-5. GPT-3: https://github.com/openai/gpt-3 (코드는 없음)
+1. StyleGAN: https://github.com/NVlabs/stylegan
+2. StyleGAN2: https://github.com/NVlabs/stylegan2
+3. YOLOv4: https://github.com/pjreddie/darknet
+4. EfficientNet-L2: https://github.com/google-research/google-research/tree/master/meta_pseudo_labels
+5. SSD: https://github.com/amdegroot/ssd.pytorch (공식은 아님)
 
 
 ## 신한이
