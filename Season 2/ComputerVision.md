@@ -40,7 +40,11 @@
 
 
 ## 한지수
-
+1. MixMatch
+2. ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring [link](https://arxiv.org/pdf/1911.09785.pdf)
+3. FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidency  [link](https://arxiv.org/pdf/2001.07685.pdf)
+4. Unsupervised Domain Adaptation by Backpropagation [link](http://proceedings.mlr.press/v37/ganin15.pdf)
+5. Mask R-CNN [link](https://arxiv.org/pdf/1703.06870.pdf)
 
 # Computer vision Github 리스트(5개)
 
