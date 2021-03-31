@@ -10,7 +10,11 @@
 
 ## 김연수
 
-
+- ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (https://arxiv.org/abs/2010.11929v1)
+- DETR : End-to-End Object Detection with Transformers (https://arxiv.org/abs/2005.12872)
+- Generative Adversarial Transformers (https://arxiv.org/abs/2103.01209)
+- Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation (https://arxiv.org/abs/1901.02985)
+- StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN (https://arxiv.org/abs/1912.04958)
 
 ## 류정현
 
@@ -47,7 +51,11 @@
 
 
 ## 김연수
-
+1. DETR -> 재원님이랑 중복이라서 전 링크 패스할게요!
+2. StyleGAN2 (https://github.com/NVlabs/stylegan2) // Original StyleGAN도 좋아용
+3. YOLO : [A minimal PyTorch implementation of YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3) 공식은 아닙니다
+4. Pix2Pix (https://github.com/phillipi/pix2pix)
+5. DeepLab v3 [pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception] 공식은 아닙니다
 
 
 ## 류정현
