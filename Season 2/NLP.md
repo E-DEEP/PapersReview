@@ -36,6 +36,11 @@
 
 
 ## 한지수
+1. GPT-2: Language Models are Unsupervised Multitask Learners [link](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+2. GPT-3: Language Models are Few-Shot Learners [link](https://arxiv.org/pdf/2005.14165v4.pdf)
+3. ELMo: Deep contextualized word representations [link](https://arxiv.org/pdf/1802.05365.pdf)
+4. Big Bird: Transformers for Longer Sequences [link](https://arxiv.org/pdf/2007.14062.pdf)
+5. mBART: Multilingual Denoising Pre-training for Neural Machine Translation [link](https://arxiv.org/pdf/2001.08210.pdf)
 
 
 # Natural Language Processing Github 리스트(5개)
@@ -78,4 +83,8 @@
 
 
 ## 한지수
-
+1. GPT-2 [code](https://github.com/graykode/gpt-2-Pytorch )
+2. GPT-3 [archived code](https://github.com/openai/gpt-3)
+3. ELMo (공식코드 없음)
+4. BigBird [code](https://github.com/google-research/bigbird)
+5. mBART [huggingface code](https://github.com/huggingface/transformers)
