@@ -43,7 +43,7 @@
 1. MixMatch
 2. ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring [link](https://arxiv.org/pdf/1911.09785.pdf)
 3. FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidency  [link](https://arxiv.org/pdf/2001.07685.pdf)
-4. Unsupervised Domain Adaptation by Backpropagation [link](http://proceedings.mlr.press/v37/ganin15.pdf)
+4. Feature Pyramid Networks for Object Detection [link](https://arxiv.org/abs/1612.03144)
 5. Mask R-CNN [link](https://arxiv.org/pdf/1703.06870.pdf)
 
 # Computer vision Github 리스트(5개)
@@ -94,6 +94,6 @@
 1. MixMatch
 2. ReMixMatch [Github](https://github.com/google-research/remixmatch)
 3. FixMatch [Github](https://github.com/google-research/fixmatch)
-4. Unsupervised Domain Adaptation by Backpropagation: DANN [site](http://sites.skoltech.ru/compvision/projects/grl/) [ old code](https://github.com/ddtm/caffe/tree/grl) [Pytorch implementation](https://github.com/wogong/pytorch-dann)
-5. Mask R-CNN [code](https://github.com/facebookresearch/Detectron)
+4. FPN [Github](https://github.com/facebookresearch/detectron)
+5. Mask R-CNN [Github](https://github.com/facebookresearch/Detectron)
 
