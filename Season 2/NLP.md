@@ -83,6 +83,11 @@
 5. T5 [Link1](https://github.com/google-research/text-to-text-transfer-transformer) || [Link2-huggingface](https://github.com/huggingface/transformers/tree/master/src/transformers/models/t5)
 
 ## 류정현
+1. Long Short Term Memory(LSTM); https://github.com/claravania/lstm-pytorch
+2. seq2seq; https://github.com/bentrevett/pytorch-seq2seq
+3. VAE; Auto-encoding variational bayes https://github.com/pytorch/botorch
+4. Improving Language Understanding By Generative Pre-Training https://github.com/openai/finetune-transformer-lm
+5. ALBERT; https://github.com/google-research/albert
 
 
 
