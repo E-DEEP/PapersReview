@@ -42,6 +42,11 @@
 
 ## 전세희
 
+1. ViT : [link](https://arxiv.org/abs/2010.11929v1)
+2. StarGAN : [link](https://github.com/yunjey/stargan)
+3. RELATION NET : [link](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sung_Learning_to_Compare_CVPR_2018_paper.pdf)
+4. semi-supervised ProtoNet : [link](https://openreview.net/pdf?id=HJcSzz-CZ)
+5. Swin Transformer : [link](https://arxiv.org/pdf/2103.14030.pdf)
 
 
 ## 한지수
