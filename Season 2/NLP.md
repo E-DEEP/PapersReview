@@ -1,6 +1,11 @@
 # Natural Language Processing 논문 리스트(5개)
 
 ## 구재원
+1. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations [paper](https://arxiv.org/pdf/1909.11942.pdf)
+2. GPT-3: Language Models are Few-Shot Learners [paper](https://arxiv.org/abs/2005.14165)
+3. ELECTRA: PRE-TRAINING TEXT ENCODERS AS DISCRIMINATORS RATHER THAN GENERATORS [papers](https://arxiv.org/pdf/2003.10555.pdf)
+4. SEQUENTIAL LATENT KNOWLEDGE SELECTION FOR KNOWLEDGE-GROUNDED DIALOGUE [papers](https://arxiv.org/pdf/2002.07510.pdf)
+5. REFORMER: THE EFFICIENT TRANSFORMER [papers](https://arxiv.org/pdf/2001.04451.pdf)
 
 
 
@@ -51,6 +56,11 @@
 
 
 ## 구재원
+1. BERT [Link](https://github.com/google-research/bert)
+2. ELMO [Link](https://github.com/allenai/bilm-tf)
+3. GPT-2 [Link](ttps://github.com/graykode/gpt-2-Pytorch)
+4. ALBERT [Link](https://github.com/google-research/albert)
+5. Attention is all you need [Link](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 
 
 
