@@ -102,6 +102,9 @@
 1. ViT : [link](https://github.com/google-research/vision_transformer)
 2. yolov1 : [link](https://github.com/pjreddie/darknet/wiki/YOLO:-Real-Time-Object-Detection)
 3. StarGAN : [link](https://github.com/yunjey/stargan)
+4. HRNet : [link](https://github.com/HRNet/HRNet-Semantic-Segmentation)
+5. RelationNet2 : [link](https://github.com/microsoft/RelationNet2)
+
 
 
 
