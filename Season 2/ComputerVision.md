@@ -39,7 +39,7 @@
 1. <CVPR2020 - Frequency domain > 	Learning in the Frequency Domain  https://arxiv.org/abs/2002.12416
 2. <CVPR2020 - Contrastive estimation> Flow Contrastive Estimation of Energy-Based Models / https://arxiv.org/pdf/1912.00589.pdf
 3. <CVPR2020 - segmentation> 	F-BRS: Rethinking Backpropagating Refinement for Interactive Segmentation  https://arxiv.org/abs/2001.10331
-4. <CVPR2020 - F> FDA: Fourier Domain Adaptation for Semantic Segmentation  http://vladlen.info/papers/MSeg.pdf
+4. <Facebook Research - object detection> (DETR) End-to-End Object Detection with Transformers  https://arxiv.org/pdf/2005.12872.pdf
 5. <CVPR2020 - domain adaptation> Unsupervised Intra-Domain Adaptation for Semantic Segmentation Through Self-Supervision https://arxiv.org/abs/2004.07703
 
 
@@ -102,7 +102,12 @@
 ## 신한이
 
 
-## 이유
+## 이유정
+1. styleGan2 : https://github.com/NVlabs/stylegan2-ada-pytorch
+2. DETR : https://github.com/facebookresearch/detr
+3. Conditional GAN : https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/cgan/cgan.py
+4. DeepLab : https://github.com/kazuto1011/deeplab-pytorch
+5. Attention is all you need https://github.com/jadore801120/attention-is-all-you-need-pytorch
 
 
 
