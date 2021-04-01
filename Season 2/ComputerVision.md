@@ -56,6 +56,9 @@
 4. Feature Pyramid Networks for Object Detection [link](https://arxiv.org/abs/1612.03144)
 5. Mask R-CNN [link](https://arxiv.org/pdf/1703.06870.pdf)
 
+
+
+
 # Computer vision Github 리스트(5개)
 
 
@@ -96,6 +99,9 @@
 
 
 ## 전세희
+1. ViT : [link](https://github.com/google-research/vision_transformer)
+2. yolov1 : [link](https://github.com/pjreddie/darknet/wiki/YOLO:-Real-Time-Object-Detection)
+3. StarGAN : [link](https://github.com/yunjey/stargan)
 
 
 
