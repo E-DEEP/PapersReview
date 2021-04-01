@@ -27,9 +27,12 @@
 ## 신한이
 
 
-## 이유진
-
-
+## 이유정
+1. BART: https://arxiv.org/abs/1910.13461
+2. XLNet : https://arxiv.org/abs/1906.08237 
+3. ULMFit : https://arxiv.org/abs/1801.06146
+4. GPT2 : https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+5. MT-DNN : https://arxiv.org/abs/1901.11504
 
 ## 전세희
 
@@ -74,8 +77,12 @@
 ## 신한이
 
 
-## 이유진
-
+## 이유정
+1. BART: https://github.com/huggingface/transformers/tree/1c06240e1b3477728129bb58e7b6c7734bb5074e/src/transformers/models/bart
+2. XLNet : https://github.com/zihangdai/xlnet
+3. ULMFit : https://github.com/jannenev/ulmfit-language-model
+4. GPT2 : https://github.com/graykode/gpt-2-Pytorch
+5. MT-DNN : https://github.com/namisan/mt-dnn
 
 
 ## 전세희
