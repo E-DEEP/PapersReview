@@ -17,7 +17,11 @@
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN (https://arxiv.org/abs/1912.04958)
 
 ## 류정현
-
+1. Mask R-CNN (https://arxiv.org/abs/1703.06870)
+2. U-Net (https://arxiv.org/abs/1505.04597)
+3. RepVGG (https://arxiv.org/abs/2101.03697)
+4. DCGAN (https://arxiv.org/abs/1511.06434)
+5. EfficientNet (https://arxiv.org/abs/1905.11946)
 
 
 ## 백서인
