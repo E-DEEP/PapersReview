@@ -41,6 +41,12 @@
 
 ## 전세희
 
+1. XLNet : [link](https://arxiv.org/abs/1906.08237.pdf)
+2. ALBERT : [link](https://arxiv.org/pdf/1909.11942.pdf)
+3. ELMo : [link](https://arxiv.org/pdf/1802.05365.pdf)
+4. Seq2seq : [link](https://papers.nips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf)
+5. BART : [link](https://arxiv.org/pdf/1910.13461.pdf)
+
 
 
 ## 한지수
@@ -95,8 +101,14 @@
 5. MT-DNN : https://github.com/namisan/mt-dnn
 
 
-## 전세희
-
+## 전세희 (콜렉션 : [link](https://github.com/graykode/nlp-tutorial) )
+1. BERT : 
+- Google(Tensorflow) : [link](https://github.com/google-research/bert)
+- Non official(PyTorch) : [link](https://github.com/codertimo/BERT-pytorch)
+2. ELMo : [link](https://github.com/ratsgo/embedding) 저자 코드를 일부 수정한 모드
+3. GPT-2: [link](https://github.com/openai/gpt-2)
+4. Seq2seq : [link](https://github.com/graykode/nlp-tutorial) , (공식) [link](https://github.com/google/seq2seq)
+5. ALBERT : [link](https://github.com/google-research/ALBERT)
 
 
 ## 한지수
