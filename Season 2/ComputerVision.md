@@ -84,7 +84,11 @@
 
 
 ## 류정현
-
+1. Mask R-CNN : https://github.com/facebookresearch/detectron
+2. U-Net : https://github.com/IntelAI/unet
+3. RepVGG : https://github.com/DingXiaoH/RepVGG
+4. DCGAN : https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html (github은 아니지만 pytorch tutorial입니다)
+5. StarGAN : https://github.com/clovaai/stargan-v2
 
 
 ## 백서인
