@@ -18,7 +18,11 @@
 - T5 : Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (https://arxiv.org/abs/1910.10683)
 
 ## 류정현
-
+1. Long Short Term Memory(LSTM); Generating sequences with recurrent neural networks (https://arxiv.org/abs/1308.0850) 
+2. seq2seq; Sequence to Sequence Learning with Neural Networks (https://arxiv.org/abs/1409.3215)
+3. VAE; Auto-encoding variational bayes (https://arxiv.org/abs/1312.6114)
+4. Improving Language Understanding By Generative Pre-Training (https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
+5. ALBERT; A Lite BERT for Self-supervised Learning of Language Representations (https://arxiv.org/abs/1909.11942)
 
 
 ## 백서인
