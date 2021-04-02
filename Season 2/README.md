@@ -26,6 +26,7 @@
   - 논문 정하신 분은 여기에 써주세요!
   (EX. 홍길동 4/1 발표 - CNN (논문링크))
     - 한지수 4/8 발표 - Mask R-CNN (https://arxiv.org/pdf/1703.06870.pdf)
+    - 구재원 4/15 발표 -  CLIP (https://arxiv.org/pdf/2103.00020.pdf)
     - 백서인 4/22 발표 - StyleGAN (https://arxiv.org/pdf/1812.04948.pdf)
     - 김연수 4/29 발표 - Everybody Dance Now (https://arxiv.org/abs/1808.07371)
   - 안정하신 분은 4/4 23:59:59까지 올리기
