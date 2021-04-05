@@ -28,6 +28,7 @@
     - 한지수 4/8 발표 - Mask R-CNN [link](https://arxiv.org/pdf/1703.06870.pdf)
     - 전세희 4/8 발표 - Variational Autoencoders for Collaborative Filtering [link](https://arxiv.org/abs/1802.05814)
     - 구재원 4/15 발표 -  CLIP [link](https://arxiv.org/pdf/2103.00020.pdf)
+    - 이유정 4/15 발표 -  MAML [link](https://arxiv.org/pdf/1703.03400.pdf)
     - 백서인 4/22 발표 - StyleGAN [link](https://arxiv.org/pdf/1812.04948.pdf)
     - 김연수 4/29 발표 - Everybody Dance Now [link](https://arxiv.org/abs/1808.07371)
   - 안정하신 분은 4/4 23:59:59까지 올리기
