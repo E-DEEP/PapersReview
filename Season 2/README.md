@@ -31,6 +31,7 @@
     - 이유정 4/15 발표 -  MAML [link](https://arxiv.org/pdf/1703.03400.pdf)
     - 백서인 4/22 발표 - StyleGAN [link](https://arxiv.org/pdf/1812.04948.pdf)
     - 김연수 4/29 발표 - Everybody Dance Now [link](https://arxiv.org/abs/1808.07371)
+    - 신한이 4/29 발표 - StyleCLIP [link](https://arxiv.org/pdf/2103.17249.pdf)
   - 안정하신 분은 4/4 23:59:59까지 올리기
   - 다른 의견 언제나 환영
 
