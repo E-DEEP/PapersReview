@@ -33,7 +33,24 @@
 - Eq.1의 generative model을 학습하기 위해, Θ를 추정해야함
 - 그렇게 하기 위해 각 데이터 포인트에서 intractable posterior distribution ![image](https://user-images.githubusercontent.com/48814946/113852759-deffc900-97d7-11eb-8cbf-899115889a03.png)을 approximate해야 함 -> variational inference
 - VAE training procedure
-  ![image](https://user-images.githubusercontent.com/48814946/113853199-5a617a80-97d8-11eb-81be-2a809340affe.png)
+- ![image](https://user-images.githubusercontent.com/48814946/113853199-5a617a80-97d8-11eb-81be-2a809340affe.png)
+
+#### A taxonomy of autoencoders
+- autoencoder는 매우 overfitting되는 경향이 있음
+- ![image](https://user-images.githubusercontent.com/48814946/113854515-e7f19a00-97d9-11eb-8b16-6b9ae07edb86.png)
+- figure 2c 에 나타난 variational autoencoder는 delta variation distribution대신 inference model을 사용
+
+### Experimental results and analysis
+#### Quantitative results
+![image](https://user-images.githubusercontent.com/48814946/113855866-7fa3b800-97db-11eb-90bd-6942b2163fc8.png)
+
+#### How well does multinomail likelihood perform?
+- 본 논문에서는 multinomial likelihood 가 top-N ranking loss과 implicit feedback data에 적합함을 주장
+- ![image](https://user-images.githubusercontent.com/48814946/113856343-11132a00-97dc-11eb-96b7-0ee29decc8b8.png)
+
+#### When does Mult-VAE perform better/worse than Multi-DAE?
+- 직관적으로 Multi-VAE는 더 강한 modeling assumptions을 부여하기 때문에 user-item interaction data가 매우 적을 때 좋은 성능을 낸다
+- ![image](https://user-images.githubusercontent.com/48814946/113856992-ec6b8200-97dc-11eb-9fa1-ff47f4827a15.png)
 
 
 
