@@ -6,15 +6,15 @@
 3. A Simple Framework for Contrastive Learning of Visual Representations, 2019 [paper](https://arxiv.org/pdf/2002.05709.pdf)
 4. Learning the Predictability of the Future, 2021 [paper](https://arxiv.org/pdf/2101.01600.pdf)
 5. MixMatch: A Holistic Approach to Semi-Supervised Learning, 2019 [paper](https://arxiv.org/pdf/1905.02249.pdf)
- 
+
 
 ## 김연수
-
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (https://arxiv.org/abs/2010.11929v1)
 - DETR : End-to-End Object Detection with Transformers (https://arxiv.org/abs/2005.12872)
 - StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery (https://arxiv.org/abs/2103.01209)
 - Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation (https://arxiv.org/abs/1901.02985)
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN (https://arxiv.org/abs/1912.04958)
+
 
 ## 류정현
 1. Mask R-CNN (https://arxiv.org/abs/1703.06870)
@@ -33,6 +33,11 @@
 
 
 ## 신한이
+1. StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery [paper](https://arxiv.org/abs/2103.01209)
+2. StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks [paper](https://github.com/yunjey/stargan)
+3. Vision Transformer: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [paper](https://arxiv.org/pdf/2010.11929.pdf)
+4. YOLO v4: Optimal Speed and Accuracy of Object Detection [paper](https://arxiv.org/abs/2004.10934)
+5. StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN  [paper](https://arxiv.org/pdf/1912.04958v2.pdf)
 
 
 ## 이유정
@@ -45,7 +50,6 @@
 
 
 ## 전세희
-
 1. ViT : [link](https://arxiv.org/abs/2010.11929v1)
 2. StarGAN : [link](https://github.com/yunjey/stargan)
 3. RELATION NET : [link](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sung_Learning_to_Compare_CVPR_2018_paper.pdf)
@@ -100,6 +104,11 @@
 
 
 ## 신한이
+1. StyleCLIP [paper](https://arxiv.org/abs/2103.01209)
+2. StyleGAN [paper](https://github.com/yunjey/stargan)
+3. Vision Transformer [paper](https://arxiv.org/pdf/2010.11929.pdf)
+4. YOLO v4 [paper](https://arxiv.org/abs/2004.10934)
+5. StyleGAN2  [paper](https://arxiv.org/pdf/1912.04958v2.pdf)
 
 
 ## 이유정
