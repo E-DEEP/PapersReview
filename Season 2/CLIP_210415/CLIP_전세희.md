@@ -1,38 +1,4 @@
-오늘은 최신 멀티모달 모델인 Open ai의 CLIP에 대해 리뷰를 해보고자 합니다. 
 
-공식 홈페이지 : [openai.com/blog/clip/](https://openai.com/blog/clip/)
-
-[
-
-CLIP: Connecting Text and Images
-
-We’re introducing a neural network called CLIP which efficiently learns visual concepts from natural language supervision.
-
-openai.com
-
-
-
-](https://openai.com/blog/clip/)
-
-리뷰 작성을 시작하며 멀티모달 카테고리를 하나 만들까 했지만 우선 포스팅의 수가 더 적은 CV에 작성해보기로 했습니다.
-
-이활석님이 텐플코에 올려주신 OpenaiI에서 CLIP관련 분석을 한 게시물도 있으니 참고부탁드립니다. ㅎㅎ
-
-[https://distill.pub/2021/multimodal-neurons/](https://distill.pub/2021/multimodal-neurons/)
-
-[
-
-Multimodal Neurons in Artificial Neural Networks
-
-We report the existence of multimodal neurons in artificial neural networks, similar to those found in the human brain.
-
-distill.pub
-
-
-
-](https://distill.pub/2021/multimodal-neurons/)
-
-그럼 시작하겠습니다.
 
 ---
 
