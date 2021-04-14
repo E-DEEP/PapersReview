@@ -5,7 +5,7 @@
 - CLIP은 단순히 visual category의 이름만 제공하여 어떠한 visual classification 문제에도 적용할 수 있음
 
 ### Major problems of Current approaches
-- visiond dataset을 생성하기 위해서는 매우 많은 노동이 필요함
+- vision dataset을 생성하기 위해서는 매우 많은 노동이 필요함
 - 일반적인 vision models은 하나의 task에는 잘 동작하지만 새로운 task에는 잘 동작하지 않음
 - benchmarks에서는 좋은 성능을 내는 모델이 stress tests에서는 poor performance를 냄
 -> 위의 문제를 해결하기 위한 neural net 제안
