@@ -17,7 +17,7 @@
 - 본 논문에서는 단순한 pre-training task를 scailing 하는 것이 competitive zero-shot performance를 달성하는 데 있어 충분함을 보임
 - 본 논문에서 제안하는 방법론은 풍부한 양의 supervision을 사용:  the text paired with images found across the internet
 - 이러한 데이터는 다음과 같은 proxy training task를 위해 사용됨: given an image, predict which out of a set of 32,768 randomly sampled text snippets, was actually paired with it in our dataset
-- 이를 위해, CLIP Model은 image에서 다양한 visual concept를 인식하고 그을 그들의 name과 연결시키는 법을 학습해야 함
+- 이를 위해, CLIP Model은 image에서 다양한 visual concept를 인식하고 그것을 그들의 name과 연결시키는 법을 학습
 - 결과적으로 CLIP은 거의 모든 visual classification tasks에 적용 가능
 
 ![image](https://user-images.githubusercontent.com/48814946/114702783-78425880-9d5f-11eb-956f-154b28bd5322.png)
