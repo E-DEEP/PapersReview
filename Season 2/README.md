@@ -19,9 +19,9 @@
   - 4월 한 달간은 탐색의 시간을 가지려고 합니다.
     발표 순서 :  - 4/8 : 한지수, 전세희X
                 - 4/15 : 구재원X, 이유정
-                - 4/22 : 백서인, 류정현
+                - 4/22 : 구재원, 류정현
                 - 4/29 : 신한이, 김연수
-                - 5/6 : 구재원, 전세희
+                - 5/6 : 류정현, 전세희
                 
   - 각자 원하는 분야 논문 발표(1주에 2명)
   - 논문 정하신 분은 여기에 써주세요!
@@ -33,7 +33,7 @@
     - 백서인 4/22 발표 - StyleGAN [link](https://arxiv.org/pdf/1812.04948.pdf)
     - 김연수 4/29 발표 - Everybody Dance Now [link](https://arxiv.org/abs/1808.07371)
     - 신한이 4/29 발표 - StyleCLIP [link](https://arxiv.org/pdf/2103.17249.pdf)
-    - 류정현 5/2 발표  - RepVGG: Making VGG-style ConvNets Great Again (https://arxiv.org/abs/2101.03697)
+    - 류정현 5/2 발표  - RepVGG: Making VGG-style ConvNets Great Again [link](https://arxiv.org/abs/2101.03697)
   - 안정하신 분은 4/4 23:59:59까지 올리기
   - 다른 의견 언제나 환영
 
