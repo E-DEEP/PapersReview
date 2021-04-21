@@ -4,7 +4,6 @@
 ### 1) predict two consecutive frames for temporally coherent video results
 ### 2) introduce a separate pipeline for realistic face synthesis
 
-## 1. INTRODUCTION
 ### * the target person never performed the same exact sequence of motions as the source
 ### - target : whose appearance we wish to synthesize
 ### - source : whose motion we wish to impose onto target person
@@ -13,4 +12,4 @@
 ### use "pose stick figures"
 
 
-## 2. RELATED WORK
+## METHOD
