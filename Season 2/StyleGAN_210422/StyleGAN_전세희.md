@@ -1,6 +1,6 @@
 # Abstract
 
-StyleGAN은 단어 그대뢔 Generative model인 GAN을 이용하여 style transfer를 하는 모델이다.
+StyleGAN은 단어 그대 Generative model인 GAN을 이용하여 style transfer를 하는 모델이다.
 
 StyleGAN을 통해 super resolution뿐만 아니라 input을 수정하여 이미지 내의 semantic한 특징들을 뽑아내여 조절할 수도 있다.
 
@@ -97,3 +97,4 @@ StyleGAN은 위에서 언급한 ProGAN을 일종의 튜닝을 통해 모델을 �
 ![image](https://user-images.githubusercontent.com/73181519/115559973-236a8900-a2ef-11eb-8e0e-59febd6b0079.png)
 
 
+참고 : [link](https://towardsdatascience.com/explained-a-style-based-generator-architecture-for-gans-generating-and-tuning-realistic-6cb2be0f431)
