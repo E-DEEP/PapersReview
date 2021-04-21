@@ -1,0 +1,16 @@
+# Everybody Dance Now
+
+### video-to-video translation (pose-to-appearance mapping)
+### 1) predict two consecutive frames for temporally coherent video results
+### 2) introduce a separate pipeline for realistic face synthesis
+
+## 1. INTRODUCTION
+### * the target person never performed the same exact sequence of motions as the source
+### - target : whose appearance we wish to synthesize
+### - source : whose motion we wish to impose onto target person
+
+### frame-by-frame manner (i.e. discover an image-to-image translation between the source&target)
+### use "pose stick figures"
+
+
+## 2. RELATED WORK
