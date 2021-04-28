@@ -12,8 +12,7 @@
 
 ## **Introduction**
 
-[##_Image|kage@33LtF/btq3CeVHy6P/W3R3qPe0W3kZ2e3cI0K9TK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
-
+![image](https://blog.kakaocdn.net/dn/33LtF/btq3CeVHy6P/W3R3qPe0W3kZ2e3cI0K9TK/img.png)
 위와 같이 발레리나의 비디오가 주어지고 아래의 남자가 standard moves를 하는 영상이 있을 때,
 
 아래의 남자가 발레리나의 움직임을 따라하도록 transfer하는 방법이다. 
@@ -26,7 +25,7 @@
 
 만약에 가지고 있다 하더라도 개인에 따라 같은 동작을 해도 몸매와 스타일이 다르기 때문에 정확히 쌍을 짓기가 힘들다.
 
-[##_Image|kage@sIFMF/btq3yx3i8AT/fB4pLHsF48viMOwcJDHI6k/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="418" height="NaN" data-ke-mobilestyle="widthContent"|keypoint based pose||_##]
+[![image](https://blog.kakaocdn.net/dn/sIFMF/btq3yx3i8AT/fB4pLHsF48viMOwcJDHI6k/img.png)
 
 이때문에 비디오 쌍이 아닌, source로부터 **keypoint-base pose**를 뽑아내어 이를 매핑에 이용한다.
 
@@ -62,7 +61,7 @@ SOTA의 image-to-image translation 모델인 pix2pix, CoGAN 그리고 CycleGAN�
 
 #### **Goal >**  Source person의 비디오와 target person의 비디오가 주어졌을 때 이 모델의 목적은 source person이 하는 모션과 똑같이 움직이는 target person의 비디오를 만들어내는 것.
 
-[##_Image|kage@c03Xf0/btq3FdnZXfC/qlNc20bXCzDRcKKV8Wzv21/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="824" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/c03Xf0/btq3FdnZXfC/qlNc20bXCzDRcKKV8Wzv21/img.png)
 
 ---
 
@@ -92,7 +91,7 @@ Subject image의 pose를 encoding하기 위해서 위에서 언급했듯이 pre-
 
 이 detector를 $P$라 해보자. $P$는 2D $x, y$ 좌표들을 정확하게 측정해낸다. 그 다음 이러한 keypoints를 그리고 선으로 연결하여 pose stick figure를 만들어낸다. 
 
-[##_Image|kage@btxagd/btq3CBi6SRr/PqVxRgYGz1CC0A6c9ybecK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="805" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/btxagd/btq3CBi6SRr/PqVxRgYGz1CC0A6c9ybecK/img.png)
 
 #### **2> Global pose normalization**
 
@@ -126,13 +125,14 @@ $G$는 이미지들을 "잘" 합성하여 $D$를 속이게 된다. (자세한  
 
 이에 대한 **objective**는 다음과 같다.
 
-[##_Image|kage@1uGcu/btq3CfApkwa/j4uGUrhLKm7K7WXkbLq7v0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="796" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/1uGcu/btq3CfApkwa/j4uGUrhLKm7K7WXkbLq7v0/img.png)
+
 
 #### **2> Face GAN**
 
 이 논문에서는 또한 특수한 GAN setup을 추가해서 디테일을 살리고 얼굴을 좀 더 현실적으로 만들었다.
 
-[##_Image|kage@babJ3J/btq3IwIIDxj/5geMpSNTS4yUPoBxWTDUek/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="750" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/babJ3J/btq3IwIIDxj/5geMpSNTS4yUPoBxWTDUek/img.png)
 
 Generator $G$로 이미지를 만들어낸 후 이미지의 작은 부분 $G(x)\_F$을 넣고 같은 방법으로 pose stick figure $x\_F$를 또 다른 generator $G\_f$에 넣는다.(위의 그림을 보면 좀 더 이해가 쉬움)
 
@@ -140,7 +140,7 @@ $G\_f$를 거치게 되면 residual $r = G\_f(x\_F, G(x)\_F)$가 나오게 되�
 
 아래의 loss function 식을 보면 좀 더 이해가 쉽다.(기존의 GAN과 동일)
 
-[##_Image|kage@LVArT/btq3ySe65bb/slLDZ2rAAxYteDKGK6MPEK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/LVArT/btq3ySe65bb/slLDZ2rAAxYteDKGK6MPEK/img.png)
 
 $x\_F$는 origianl pose stick figure $x$의 얼굴 영역이고 $y\_F$는 ground truth target person image $y$의 얼굴 영역을 뜻한다.
 
@@ -150,18 +150,16 @@ $x\_F$는 origianl pose stick figure $x$의 얼굴 영역이고 $y\_F$는 ground
 
 첫번째로 main generator $G$와 discriminator $D$를 다음의 objective로 훈련을 시킨다.
 
-[##_Image|kage@b3AFq4/btq3GFeYiX2/6h4uWNLxohErYlMa9Pg4iK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="787" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/b3AFq4/btq3GFeYiX2/6h4uWNLxohErYlMa9Pg4iK/img.png)
 
 여기서 $L\_{GAN} (G,D)$는 pix2pix논문의 adversarial loss이다.
-
-[##_Image|kage@bpsNAy/btq3GGkA5xS/NhCyeUn9sqVAr5FafRXAPK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="800" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/bpsNAy/btq3GGkA5xS/NhCyeUn9sqVAr5FafRXAPK/img.png)
 
 또, Feature Matching loss $L\_{FM}(G,D)$와 perceptual reconstruction loss $L\_P(G(x), y)$까지 사용한다.
 
 이러한 main generator, discriminator 훈련 후에는 full image GAN의 가중치들을 고정시켜놓고 다음의 두번째 objective를 학습한다.
 
-[##_Image|kage@b46uX0/btq3GDH5YO2/cxqgjEKEGbqbtKRsTQIWVK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="821" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
-
+![image](https://blog.kakaocdn.net/dn/b46uX0/btq3GDH5YO2/cxqgjEKEGbqbtKRsTQIWVK/img.png)
 ---
 
 ## **Experiments**
@@ -192,19 +190,19 @@ $x\_F$는 origianl pose stick figure $x$의 얼굴 영역이고 $y\_F$는 ground
 
 저자들은 정량적으로 baseline methods와 논문의 모델을 비교하였는데, 그 결과는 다음과 같다.
 
-[##_Image|kage@dywjkA/btq3GFlJUGV/hoqKuYEZvskAjoi05y0Gnk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="759" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/dywjkA/btq3GFlJUGV/hoqKuYEZvskAjoi05y0Gnk/img.png)
+
 
 #### **2) Ablation Study**
 
 또한 사용한 방법들을 하나씩 제거해나가면서 성능이 어떻게 되는지에 대해 연구도 하였다.
 
-[##_Image|kage@pXvdc/btq3ITRdqkI/udOVQvmMAieHTWaHhS237K/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="763" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/pXvdc/btq3ITRdqkI/udOVQvmMAieHTWaHhS237K/img.png)
 
 ### **3\. Qualitative Results**
 
 이제 결과를 눈으로 직접 확인해보자.
-
-[##_Image|kage@CysuV/btq3EuY9RsW/qOqmDhy1tKscr1VlK3GGu0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://blog.kakaocdn.net/dn/pXvdc/btq3ITRdqkI/udOVQvmMAieHTWaHhS237K/img.png)
 
 Ground Truth와는 좀 다르지면 보기에 그럴듯한 결과인 것을 직접 확인할 수 있다. 심지어 밑에는 Ground truth보다 더 선명하고 진짜 같기도 하다.!!
 
@@ -214,7 +212,8 @@ Ground Truth와는 좀 다르지면 보기에 그럴듯한 결과인 것을 직�
 
 합성기술말고도 합성된 것을 구분하는 것도 가능하다고 한다.(Discriminator를 사용했으니 될거라고 예상이 가능하다!)
 
-[##_Image|kage@2jPwX/btq3FePmcK4/uh8QHaVqTSo1jjb1N8G2SK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="805" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](https://blog.kakaocdn.net/dn/CysuV/btq3EuY9RsW/qOqmDhy1tKscr1VlK3GGu0/img.png)
 
 정량적인 수치로 굉장히 높은 값으로 fake detection이 가능함을 확인할 수 있다.
 
