@@ -9,19 +9,25 @@
 
 ### Latent Optimization
 <img width="422" alt="image" src="https://user-images.githubusercontent.com/48814946/116401296-0b05eb80-a866-11eb-9083-26dfed5009fb.png">
+
 - w_s: latent code
 - t: text prompt
 - G: Pretrained StyleGAN generator
 - D_CLIP: cosine distance between the CLIP embeddings of its tow arguments
+- 
 <img width="422" alt="image" src="https://user-images.githubusercontent.com/48814946/116401350-1a853480-a866-11eb-911d-a27259af03a0.png">
+
 - R: pretrained ArcFace network for face recognition
 - <.,.> : computes the cosine similarity between it's arguments
+- 
 <img width="422" alt="image" src="https://user-images.githubusercontent.com/48814946/116401946-c9297500-a866-11eb-9203-fbe6eafdce0e.png">
 
 ### Latent Mapper
 <img width="848" alt="image" src="https://user-images.githubusercontent.com/48814946/116402114-faa24080-a866-11eb-8164-43050f941f95.png">
+
 - three groups(coarse, medium, and fine)
 - three fully-connected networks
+
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/48814946/116402411-5f5d9b00-a867-11eb-85d6-5c81c14f8d69.png">
 
 ### Global Directions
