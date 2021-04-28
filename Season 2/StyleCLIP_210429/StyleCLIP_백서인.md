@@ -35,10 +35,9 @@
 <img width="446" alt="image" src="https://user-images.githubusercontent.com/48814946/116403441-85d00600-a868-11eb-8d4a-e8a41145c17d.png">
 
 ### Comparison and Evaluation
-<img width="446" alt="image" src="https://user-images.githubusercontent.com/48814946/116403830-01ca4e00-a869-11eb-9b77-541ca685a2b7.png">
-<img width="219" alt="image" src="https://user-images.githubusercontent.com/48814946/116403865-0b53b600-a869-11eb-900c-6918e2a4ef7b.png">
+<img width="848" alt="image" src="https://user-images.githubusercontent.com/48814946/116403830-01ca4e00-a869-11eb-9b77-541ca685a2b7.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/48814946/116403865-0b53b600-a869-11eb-900c-6918e2a4ef7b.png">
 
-<img width="446" alt="image" src="https://user-images.githubusercontent.com/48814946/116403830-01ca4e00-a869-11eb-9b77-541ca685a2b7.png">
 
 
 
