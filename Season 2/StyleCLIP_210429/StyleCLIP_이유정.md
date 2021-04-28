@@ -15,3 +15,16 @@
   - w와 source latent code(given) 사이의 L2 loss 
 #### term3 
   - identity loss
+
+
+## Latent Mapper
+  - specific한 text prompt t에 대해서 훈련하는 mapping network.
+  - Architecture : 
+   ![image](https://user-images.githubusercontent.com/45954821/116423771-f2083500-a87b-11eb-8de2-39b2aa1b02d3.png)
+
+
+## Global Directions
+: text prompt를 어떠한 방향(direction)으로 매핑시켜주는 방법. 
+다른 latent spaces들 보다 더 disentatnled latent space를 보여준다. 
+![Uploading image.png…]()
+
