@@ -26,5 +26,7 @@
 ## Global Directions
 : text prompt를 어떠한 방향(direction)으로 매핑시켜주는 방법. 
 다른 latent spaces들 보다 더 disentatnled latent space를 보여준다. 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/45954821/116424791-c3d72500-a87c-11eb-870e-e40f46bbff59.png)
+
+
 
