@@ -14,12 +14,12 @@
 - t: text prompt
 - G: Pretrained StyleGAN generator
 - D_CLIP: cosine distance between the CLIP embeddings of its tow arguments
-- 
+
 <img width="422" alt="image" src="https://user-images.githubusercontent.com/48814946/116401350-1a853480-a866-11eb-911d-a27259af03a0.png">
 
 - R: pretrained ArcFace network for face recognition
 - <.,.> : computes the cosine similarity between it's arguments
-- 
+
 <img width="422" alt="image" src="https://user-images.githubusercontent.com/48814946/116401946-c9297500-a866-11eb-9203-fbe6eafdce0e.png">
 
 ### Latent Mapper
