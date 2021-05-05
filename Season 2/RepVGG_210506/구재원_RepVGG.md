@@ -1,6 +1,4 @@
 # RepVGG: Making VGG-style ConvNets Great Again
-
-## 1. Introduction
     
 ### Problem
  : ImageNet에서 image recognition에 좋은 성능을 보이는 ConvNet들이 많이 발표되었다. 하지만 이런 네트워크들은 다음과
@@ -23,6 +21,14 @@
 inference시에는 plain architecture가 되도록 re-parameterization을 시행한다. Re-parameterization이란 parameter를 
 바꾸며 하나의 aritecture를 다른 aritecture로 만드는 것을 의미한다. 
 
+아래 그림에서 보면, b가 train시에 multi-branch의 형태를 띄는 RepVGG이고, C는 test시의 변형된, plain architecure의 RepVgg이다.
+
+![image](https://user-images.githubusercontent.com/34685762/117151170-c7762900-adf3-11eb-9c26-17d485a91df1.png)
+
+
+Re-parameterization하는 과정은 다음과 같다. 
+
+![image](https://user-images.githubusercontent.com/34685762/117151298-e83e7e80-adf3-11eb-8b82-53bd435cfacd.png)
 
 
 
