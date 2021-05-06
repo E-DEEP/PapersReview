@@ -44,7 +44,7 @@
 
 #### 비전
 
-    - 한지수
+    - 한지수 : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [paper](https://arxiv.org/pdf/2010.11929.pdf)
     - 이유정 
     - 구재원
     - 백서인
