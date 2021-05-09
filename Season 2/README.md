@@ -44,7 +44,7 @@
 
 #### 비전
 
-    - 한지수 : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+    - 한지수 : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale(ViT, facebook)
     - 이유정 
     - 구재원
     - 백서인
@@ -56,7 +56,7 @@
 #### 자연어
 
 
-    - 한지수
+    - 한지수: Neural Architecture Search with Reinforcement Learning (Google)
     - 이유정 
     - 구재원
     - 백서인
@@ -69,7 +69,7 @@
 #### 멀티모달
 
 
-    - 한지수
+    - 한지수: Self-Supervised MultiModal Versatile Networks (Google)
     - 이유정 
     - 구재원
     - 백서인
@@ -82,7 +82,7 @@
 #### 메타러닝
 
 
-    - 한지수
+    - 한지수: Matching Networks for One Shot Learning(Google)
     - 이유정 
     - 구재원
     - 백서인
