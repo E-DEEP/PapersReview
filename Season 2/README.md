@@ -50,7 +50,7 @@
     - 백서인 : Analyzing and Improving the Image Quality of StyleGAN (NVIDIA)
     - 김연수 : Few-shot Video-to-Video Synthesis(Few-shot Vid2Vid, NVIDIA)
     - 신한이
-    - 류정현 : 
+    - 류정현 : EfficientDet: Scalable and Efficient Object Detection (Google Research)
     - 전세희
 
 #### 자연어
