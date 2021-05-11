@@ -49,7 +49,7 @@
     - 구재원 : Emerging Properties in Self-Supervised Vision Transformers (Facebook)
     - 백서인 : Analyzing and Improving the Image Quality of StyleGAN (NVIDIA)
     - 김연수 : Few-shot Video-to-Video Synthesis(Few-shot Vid2Vid, NVIDIA)
-    - 신한이
+    - 신한이 : Generative Pretraining from Pixels
     - 류정현 : EfficientDet: Scalable and Efficient Object Detection (Google Research)
     - 전세희 : Is Space-Time Attention All You Need for Video Understanding? & 
     Generative Pretraining from Pixels(ImageGPT)
@@ -62,7 +62,7 @@
     - 구재원 : Learning to Perturb Word Embeddings for Out-of-distribution QA (KAIST, ACL 2021)
     - 백서인 : XLNet: Generalized Autoregressive Pretraining for Language Understanding (Google)
     - 김연수 : PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization (ICML 2020)
-    - 신한이
+    - 신한이 : DeText: A Deep Text Ranking Framework with BERT
     - 류정현 : ALBERT; A Lite BERT for Self-supervised Learning of Language Representations
     - 전세희 : XLNet: Generalized Autoregressive Pretraining for Language Understanding 
     - 
@@ -75,7 +75,7 @@
     - 구재원: DALL-E: Zero-Shot Text-to-Image Generation (OpenAI)
     - 백서인: Multimodal Transformer for Unaligned Multimodal Language Sequences (Carnegie Mellon University)
     - 김연수 : Multi-Modal Dense Video Captioning 
-    - 신한이
+    - 신한이 : What Makes Training Multi-modal Classification Networks Hard?
     - 류정현 : VideoBERT: A Joint Model for Video and Language Representation Learning (Google Research)
     - 전세희 : DALL-E: Zero-Shot Text-to-Image Generation
     
@@ -88,8 +88,8 @@
     - 구재원 : Learning to Learn Words from Visual Scenes (Columbia University, ECCV 2020)
     - 백서인 : Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks 
     - 김연수 : Online Meta-Learning (ICML, 2019)
-    - 신한이
-    - 류정현 : Meta-Reinforcement Learning of Structured (2018)
+    - 신한이 : Generalizing from a Few Examples: A survey on Few-Shot Learning
+    - 류정현 
     - 전세희 : Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning
 
 
