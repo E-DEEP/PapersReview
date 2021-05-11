@@ -50,7 +50,7 @@
     - 백서인 : Analyzing and Improving the Image Quality of StyleGAN (NVIDIA)
     - 김연수 : Few-shot Video-to-Video Synthesis(Few-shot Vid2Vid, NVIDIA)
     - 신한이
-    - 류정현 
+    - 류정현 : 
     - 전세희
 
 #### 자연어
@@ -75,7 +75,7 @@
     - 백서인: Multimodal Transformer for Unaligned Multimodal Language Sequences (Carnegie Mellon University)
     - 김연수 : Multi-Modal Dense Video Captioning 
     - 신한이
-    - 류정현 
+    - 류정현 : VideoBERT: A Joint Model for Video and Language Representation Learning (Google Research)
     - 전세희
     
 
