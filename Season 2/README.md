@@ -51,7 +51,8 @@
     - 김연수 : Few-shot Video-to-Video Synthesis(Few-shot Vid2Vid, NVIDIA)
     - 신한이
     - 류정현 : EfficientDet: Scalable and Efficient Object Detection (Google Research)
-    - 전세희
+    - 전세희 : Is Space-Time Attention All You Need for Video Understanding? & 
+    Generative Pretraining from Pixels(ImageGPT)
 
 #### 자연어
 
@@ -63,7 +64,7 @@
     - 김연수 : PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization (ICML 2020)
     - 신한이
     - 류정현 : ALBERT; A Lite BERT for Self-supervised Learning of Language Representations
-    - 전세희
+    - 전세희 : XLNet: Generalized Autoregressive Pretraining for Language Understanding 
     - 
 
 #### 멀티모달
@@ -76,7 +77,7 @@
     - 김연수 : Multi-Modal Dense Video Captioning 
     - 신한이
     - 류정현 : VideoBERT: A Joint Model for Video and Language Representation Learning (Google Research)
-    - 전세희
+    - 전세희 : DALL-E: Zero-Shot Text-to-Image Generation
     
 
 #### 메타러닝
@@ -89,6 +90,6 @@
     - 김연수 : Online Meta-Learning (ICML, 2019)
     - 신한이
     - 류정현 
-    - 전세희
+    - 전세희 : Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning
 
 
