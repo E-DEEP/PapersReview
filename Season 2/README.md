@@ -59,7 +59,7 @@
     - 한지수: Neural Architecture Search with Reinforcement Learning (Google)
     - 이유정 
     - 구재원 : Learning to Perturb Word Embeddings for Out-of-distribution QA (KAIST, ACL 2021)
-    - 백서인 : XLNet: Generalized Autoregressive Pretraining for Language Understanding
+    - 백서인 : XLNet: Generalized Autoregressive Pretraining for Language Understanding (Google)
     - 김연수 
     - 신한이
     - 류정현 
