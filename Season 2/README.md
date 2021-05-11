@@ -62,7 +62,7 @@
     - 백서인 : XLNet: Generalized Autoregressive Pretraining for Language Understanding (Google)
     - 김연수 : PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization (ICML 2020)
     - 신한이
-    - 류정현 
+    - 류정현 : ALBERT; A Lite BERT for Self-supervised Learning of Language Representations
     - 전세희
     - 
 
