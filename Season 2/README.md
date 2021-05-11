@@ -46,7 +46,7 @@
 
     - 한지수 : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale(ViT, facebook)
     - 이유정 
-    - 구재원
+    - 구재원 : Emerging Properties in Self-Supervised Vision Transformers (Facebook)
     - 백서인
     - 김연수 
     - 신한이
@@ -58,7 +58,7 @@
 
     - 한지수: Neural Architecture Search with Reinforcement Learning (Google)
     - 이유정 
-    - 구재원
+    - 구재원 : Learning to Perturb Word Embeddings for Out-of-distribution QA (KAIST, ACL 2021)
     - 백서인
     - 김연수 
     - 신한이
@@ -71,7 +71,7 @@
 
     - 한지수: Self-Supervised MultiModal Versatile Networks (Google)
     - 이유정 
-    - 구재원
+    - 구재원: DALL-E: Zero-Shot Text-to-Image Generation (OpenAI)
     - 백서인
     - 김연수 
     - 신한이
@@ -84,7 +84,7 @@
 
     - 한지수: Matching Networks for One Shot Learning(Google)
     - 이유정 
-    - 구재원
+    - 구재원 : Learning to Learn Words from Visual Scenes (Columbia University, ECCV 2020)
     - 백서인
     - 김연수 
     - 신한이
