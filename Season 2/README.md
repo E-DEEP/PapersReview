@@ -89,7 +89,7 @@
     - 백서인 : Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks 
     - 김연수 : Online Meta-Learning (ICML, 2019)
     - 신한이 : Generalizing from a Few Examples: A survey on Few-Shot Learning
-    - 류정현 
+    - 류정현 : Meta-Reinforcement Learning of Structured Exploration Strategies
     - 전세희 : Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning
 
 
