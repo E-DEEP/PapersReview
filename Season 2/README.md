@@ -45,7 +45,7 @@
 #### 비전
 
     - 한지수 : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale(ViT, facebook)
-    - 이유정 : 
+    - 이유정 : Coarse-to-Fine Domain Adaptive Semantic Segmentation with Photometric Alignment and Category-Center Regularization (CVPR 2021)
     - 구재원 : Emerging Properties in Self-Supervised Vision Transformers (Facebook)
     - 백서인 : Analyzing and Improving the Image Quality of StyleGAN (NVIDIA)
     - 김연수 : Few-shot Video-to-Video Synthesis(Few-shot Vid2Vid, NVIDIA)
@@ -84,7 +84,7 @@
 
 
     - 한지수: Matching Networks for One Shot Learning(Google)
-    - 이유정 : MetaAlign: Coordinating Domain Alignment and Classification for Unsupervised Domain Adaptation(CVPR 2021)
+    - 이유정 : MetaCorrection: Domain-aware Meta Loss Correction for Unsupervised Domain Adaptation in Semantic Segmentation(Baidu USA, CVPR 2021)
     - 구재원 : Learning to Learn Words from Visual Scenes (Columbia University, ECCV 2020)
     - 백서인 : Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks 
     - 김연수 : Online Meta-Learning (ICML, 2019)
