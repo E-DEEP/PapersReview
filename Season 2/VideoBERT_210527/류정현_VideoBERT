@@ -1,0 +1,6 @@
+BERT model을 video와 language를 joint한 model이다. 
+
+이에 대해 training 과정에서 다음과 같은 task를 학습한다.
+1) liguistic-visual alignment task : text와 image를 일치시키고자 함.
+2) masked laguage modeling (MLM) : BERT와 동일
+3) masked frame modeling (MFM) : image cluster을 classify하고자 함.
