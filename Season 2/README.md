@@ -111,8 +111,11 @@
 1. Matching Networks for One Shot Learning(Google)
 2. Online Meta-Learning (ICML, 2019)
 
-5/27 김연수(VideoBERT) 한지수(ViT)
-6/3  신한이(Matching Networks for One Shot Learning(Google)) 구재원(DALL-E)
-6/10 백서인(XLNet) 전세희(Is Space-Time Attention All You Need for Video Understanding?)
-6/17 류정현(ALBERT) 이유정(Online Meta-Learning)
+
+#### 발표 일정
+
+- 5/27 김연수(VideoBERT) 한지수(ViT)
+- 6/3  신한이(Matching Networks for One Shot Learning(Google)) 구재원(DALL-E)
+- 6/10 백서인(XLNet) 전세희(Is Space-Time Attention All You Need for Video Understanding?)
+- 6/17 류정현(ALBERT) 이유정(Online Meta-Learning)
 
