@@ -93,3 +93,26 @@
     - 전세희 : Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning
 
 
+### 5. 발표 리스트
+
+<비전>
+1. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale(ViT, facebook)
+2. Is Space-Time Attention All You Need for Video Understanding?
+
+<자연어>
+1. XLNet
+2. ALBERT
+
+<멀티모달>
+1. DALL-E
+2. VideoBERT
+
+<메타러닝>
+1. Matching Networks for One Shot Learning(Google)
+2. Online Meta-Learning (ICML, 2019)
+
+5/27 김연수(VideoBERT) 한지수(ViT)
+6/3  신한이(Matching Networks for One Shot Learning(Google)) 구재원(DALL-E)
+6/10 백서인(XLNet) 전세희(Is Space-Time Attention All You Need for Video Understanding?)
+6/17 류정현(ALBERT) 이유정(Online Meta-Learning)
+
