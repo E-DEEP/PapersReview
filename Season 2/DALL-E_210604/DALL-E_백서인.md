@@ -7,8 +7,8 @@
 ### Method
 - DALL-E는 autoregressive하게 텍스트와 이미지 토큰을 하나의 스트림으로 받아들여 트랜스포머를 학습
 - Stage 1
-  - discrete VAE를 학습하여 256x256 RGB 이미지를 32x32 그리드의 이미지 토큰으로 압축
-  - 이를 통해 transformer가 처리해야 하는 context 크기를 192배 압축하면서, visual quality는 유지 가능
+  * discrete VAE를 학습하여 256x256 RGB 이미지를 32x32 그리드의 이미지 토큰으로 압축
+  * 이를 통해 transformer가 처리해야 하는 context 크기를 192배 압축하면서, visual quality는 유지 가능
 - Stage 2
   - 256 BPE-encoded text 토큰과 32 * 32 = 1024의 이미지 토큰을 concat
   - autoregressive transformer 학습
