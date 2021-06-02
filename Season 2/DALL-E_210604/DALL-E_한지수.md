@@ -1,4 +1,4 @@
-# DALL-E:Zero-shot 
+# DALL-E: Zero-Shot Text-to-Image Generation
 작성자: 한지수
 
 ## Abstract
