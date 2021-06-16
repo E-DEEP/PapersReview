@@ -1,10 +1,10 @@
 # ALBERT: A Lite BERT For Self-Supervised Learning Of Language Representations
 
 ## Abstract
-- 모델 사이즈를 증가시키느 것은 downstream task에서의 성능 개선 결과를 가져옴
-- 하지만 모델 사이즈를 증가시킬수로 GPU/TPU 메모리가 부족해지고, 학습 시간도 더 오래걸림
+- 모델 사이즈를 증가시키는 것은 downstream task에서의 성능 개선 결과를 가져옴
+- 하지만 모델 사이즈를 증가시킬수록 GPU/TPU 메모리가 부족해지고, 학습 시간도 더 오래걸림
 - 이러한 문제를 해결하기 위해, 2가지의 parameter reduction techniques 제안
-- 또한, inter-sentence coherence를 모델링하는데 집중하는 self-supervised loss를 사용하고, 이는 multi-sentence inputs이 있는downstream task에서 도움이 됨을 확인
+- 또한, inter-sentence coherence를 모델링하는데 집중하는 self-supervised loss를 사용하고, 이는 multi-sentence inputs이 있는 downstream task에서 도움이 됨을 확인
 - 실험 결과, 제안 모델이 GLUE, RACE, SQuAD 데이터셋에서 SOTA 달성
 
 ## ALBERT
