@@ -1,4 +1,4 @@
-ALBERT: A Lite BERT For Self-Supervised Learning Of Language Representations
+# ALBERT: A Lite BERT For Self-Supervised Learning Of Language Representations
 
 ## Abstract
 - 모델 사이즈를 증가시키느 것은 downstream task에서의 성능 개선 결과를 가져옴
