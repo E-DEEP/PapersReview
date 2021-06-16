@@ -13,10 +13,10 @@ ALBERT: A Lite BERT For Self-Supervised Learning Of Language Representations
 - BERT에서는 Input token embedding 사이즈와 Hidden 사이즈가 동일
 - ALBERT에서는 Input token embedding 사이즈를 Hidden 사이즈보다 작게 설정하여 parameter를 줄임
 
-###2. Cross-layer parameter sharing
+### 2. Cross-layer parameter sharing
 - Transformer의 Layer간 parameter 공유
 
-###3. Inter-sentence coherence loss
+### 3. Inter-sentence coherence loss
 - Sentence Order Prediction
 - Next Sentence Prediction 대신 두 문장이 주어질 때 순서를 맞히도록 학습
 
