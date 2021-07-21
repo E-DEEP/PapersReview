@@ -6,6 +6,8 @@
         - MLP-Mixer: An all-MLP Architecture for Vision (Google Research, 2021, Vision 부문)
         - Multimodal Transformer for Unaligned Multimodal Language Sequences (CMU, 2019, Multi-Modal)
     - 이유정
+        - Adversarially Adaptive Normalization for Single Domain Generalization (Google Research, CVPR-2021, Vision 분야)
+        
     - 구재원
     - 백서인
     - 김연수
