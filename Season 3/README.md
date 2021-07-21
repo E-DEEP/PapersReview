@@ -3,7 +3,7 @@
 ### 1. 논문 리스트업 (각자 2개씩, ~7/22 21:30)
    
     - 한지수
-        - MLP-Mixer: An all-MLP Architecture for Vision (Google Research, 2021, Vision 부문)
+        - MLP-Mixer: An all-MLP Architecture for Vision (Google Research, CVPR 2021, Vision 부문)
         - Multimodal Transformer for Unaligned Multimodal Language Sequences (CMU, 2019, Multi-Modal)
     - 이유정
         - Adversarially Adaptive Normalization for Single Domain Generalization (Google Research, CVPR-2021, Vision 분야)
