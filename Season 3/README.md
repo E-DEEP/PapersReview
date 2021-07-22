@@ -7,7 +7,7 @@
         - Multimodal Transformer for Unaligned Multimodal Language Sequences (CMU, 2019, Multi-Modal)
     - 이유정
         - Adversarially Adaptive Normalization for Single Domain Generalization (Google Research, CVPR-2021, Vision 분야)
-        - 
+        - DialogBERT: Discourse-Aware Response Generation via Learning to Recover and Rank Utterances (NaverAI, 2020, NLP분야)
     - 구재원
         - ViTGAN: Training GANs with Vision Transformers (2021, vision분야) 
         - Zero-Shot Stance Detection: A Dataset and Model using Generalized Topic Representations (Columbia Uni. EMNLP 2020, NLP)
