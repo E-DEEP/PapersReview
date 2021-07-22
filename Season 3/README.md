@@ -13,6 +13,8 @@
         - Zero-Shot Stance Detection: A Dataset and Model using Generalized Topic Representations (Columbia Uni. EMNLP 2020, NLP)
     - 백서인
     - 김연수
+        - ViViT: A Video Vision Transformer (2021, video representation learning)
+        - Early Convolutions Help Transformers See Better (2021, Vision)
     - 신한이
     - 류정현
         - Multimodal Transformer for Unaligned Multimodal Language Sequences (Carnegie Mellon University, 2019, MultiModal분야)
