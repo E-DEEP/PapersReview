@@ -13,6 +13,8 @@
     - 김연수
     - 신한이
     - 류정현
+        - Multimodal Transformer for Unaligned Multimodal Language Sequences (Carnegie Mellon University, 2019, MultiModal분야)
+        - HIERARCHICAL MULTI-SCALE ATTENTION FOR SEMANTIC SEGMENTATION (Nvidia, 2020, Vision분야)    
     - 전세희 (휴식!)
 
 
