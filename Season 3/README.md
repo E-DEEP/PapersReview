@@ -9,6 +9,8 @@
         - Adversarially Adaptive Normalization for Single Domain Generalization (Google Research, CVPR-2021, Vision 분야)
         - 
     - 구재원
+        - ViTGAN: Training GANs with Vision Transformers (2021, vision분야) 
+        - Zero-Shot Stance Detection: A Dataset and Model using Generalized Topic Representations (Columbia Uni. EMNLP 2020, NLP)
     - 백서인
     - 김연수
     - 신한이
