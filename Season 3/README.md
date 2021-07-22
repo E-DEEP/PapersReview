@@ -12,6 +12,8 @@
         - ViTGAN: Training GANs with Vision Transformers (2021, vision분야) 
         - Zero-Shot Stance Detection: A Dataset and Model using Generalized Topic Representations (Columbia Uni. EMNLP 2020, NLP)
     - 백서인
+        - RoBERTa: A Robustly Optimized BERT Pretraining Approach (Faceboox AI, NLP)
+        - Styleformer: Transformer based Generative Adversarial Networks with Style Vector (SNU, Vision)
     - 김연수
         - ViViT: A Video Vision Transformer (2021, video representation learning)
         - Early Convolutions Help Transformers See Better (2021, Vision)
