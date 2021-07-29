@@ -18,6 +18,7 @@
   - ViViT: A Video Vision Transformer (2021, video representation learning)
   - **MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning (ACL 2020)**
 - 신한이
+  - **Analyzing and Improving the Image Quality of StyleGAN (CVPR-2020, Vision분야)    
 - 류정현
   - **Multimodal Transformer for Unaligned Multimodal Language Sequences (Carnegie Mellon University, 2019, MultiModal분야)** ( )
   - HIERARCHICAL MULTI-SCALE ATTENTION FOR SEMANTIC SEGMENTATION (Nvidia, 2020, Vision분야)    
