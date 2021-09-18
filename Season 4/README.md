@@ -12,7 +12,8 @@
         - Styleformer: Transformer based Generative Adversarial Networks with Style Vector (SNU, Vision)
         - DeBERTa: Decoding-enhanced BERT with Disentangled Attention (Microsoft, NLP)
     - 김연수 (휴식!)
-    - 신한이
     - 류정현
     - 전세희
+        - Exploring Simple Siamese Representation Learning (FACEBOOK AI RESEARCH, 2021 CVPR)
+        - Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context (2021)
 
