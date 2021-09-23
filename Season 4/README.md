@@ -13,6 +13,8 @@
         - DeBERTa: Decoding-enhanced BERT with Disentangled Attention (Microsoft, NLP)
     - 김연수 (휴식!)
     - 류정현
+        - Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis
+        - 
     - 전세희
         - Exploring Simple Siamese Representation Learning (FACEBOOK AI RESEARCH, 2021 CVPR)
         - Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context (2021)
