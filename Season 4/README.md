@@ -19,3 +19,19 @@
         - Exploring Simple Siamese Representation Learning (FACEBOOK AI RESEARCH, 2021 CVPR)
         - Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context (2021)
 
+
+### 2. Season 4 시작 전 논의 사항 (9/23)
+
+1. 매주 수요일 21:30
+2. 벌금 부활 (발표자 5000 참여자 2000 / 미업로드나 불참시)
+3. 발표자 1주일 전 발표 논문 공지
+4. 10/6부터 시작(서인님, 지수님)
+5. 발표순서는 다음과 같음.
+-----------------------
+10/6 백서인 한지수
+10/13 류정현 전세희
+10/20 이유정 구재원 
+10/27 전세희 백서인
+11/3 한지수 류정현
+11/10 이유정 구재원
+-----------------------
