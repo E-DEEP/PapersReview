@@ -8,6 +8,8 @@
         - Contrastive Clustering (2021 AAAI, Computer vision)
         - Meta Pseudo Labels (Google Research, 2021 CVPR, Computer vision)
     - 구재원
+        - QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries
+        - Weakly Supervised Subevent Knowledge Acquisition (EMNLP 2020)
     - 백서인
         - Styleformer: Transformer based Generative Adversarial Networks with Style Vector (SNU, Vision)
         - DeBERTa: Decoding-enhanced BERT with Disentangled Attention (Microsoft, NLP)
