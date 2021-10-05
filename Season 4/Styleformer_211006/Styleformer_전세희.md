@@ -24,8 +24,7 @@ GANsformer는 convolution과 transformer를 결합하여 이미지 생성에서 
 
 ## **Generation with Transformer**
 
-[##_Image|kage@2sX1j/btrgU1JxUxb/aGL3rxn9s6gPUE5FQeDGE1/img.png|alignCenter|data-origin-width="590" data-origin-height="457" data-ke-mobilestyle="widthOrigin"|||_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F2sX1j%2FbtrgU1JxUxb%2FaGL3rxn9s6gPUE5FQeDGE1%2Fimg.png)
 Transformer로만 이루어진 모델이기에 트랜스포머에 대해 잠깐 짚고 넘어가자.
 
 트랜스포머는 위의 (a)와 같이 Query, Key, Value에서 Query와 Key를 dot product한 것을 weight로 하여 Value를 weighted sum한 것이라 생각하면 된다. 
@@ -33,8 +32,7 @@ Transformer로만 이루어진 모델이기에 트랜스포머에 대해 잠깐 
 트랜스포머를 Prepare와 Main module로 나누어 생각하면,
 
 아래와 같이 생각할 수 있다.
-
-[##_Image|kage@cx5tfW/btrgU04WSkd/KWay8kjDFovGwlUIDGTawK/img.png|alignCenter|data-origin-width="556" data-origin-height="205" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcx5tfW%2FbtrgU04WSkd%2FKWay8kjDFovGwlUIDGTawK%2Fimg.png)
 
 Prepare는 Query, Key 그리고 Value를 만들어내는 부분이며 Main은 이를 weighted sum하고 concat 등등을 하는 곳이다.
 
@@ -53,8 +51,8 @@ StyleGAN은 layer-wise style vector를 이용하여 이미지를 만들어내고
 ## **Styleformer Architecture**
 
 전체 구조는 다음과 같다.
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FydEeX%2FbtrgOsOWXgA%2FbuHjv3e9lxZ7ce95LpHngK%2Fimg.png)
 
-[##_Image|kage@ydEeX/btrgOsOWXgA/buHjv3e9lxZ7ce95LpHngK/img.png|alignCenter|data-origin-width="612" data-origin-height="466" data-ke-mobilestyle="widthOrigin"|||_##]
 
 ### \- Style injection
 
@@ -72,21 +70,24 @@ Vanila GAN과는 다르게,  StyleGAN은 다른 style vectors를 각 convolutio
 
 저자들은 feed-forward 구조를 지웠는데, 지움으로써 generator가 더 효과적이면서 성능이 나아졌기 때문이다. 이는 아래 ablation study로 확인할 수 있다.
 
-[##_Image|kage@6g9uB/btrgMA0iB26/jYe7QZSox3bnaVa4UbLkFk/img.png|alignCenter|data-origin-width="568" data-origin-height="186" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6g9uB%2FbtrgMA0iB26%2FjYe7QZSox3bnaVa4UbLkFk%2Fimg.png)
+
 
 ## **Experiments**
 
 **(정량적 결과)**
 
-[##_Image|kage@uWA43/btrgTEA5fnv/JWjfPlx2BMowRmRuiYKhuk/img.png|alignCenter|data-origin-width="590" data-origin-height="260" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuWA43%2FbtrgTEA5fnv%2FJWjfPlx2BMowRmRuiYKhuk%2Fimg.png)
+
 
 **(정성적 결과)**
 
-[##_Image|kage@GLTsi/btrgVRNsvZJ/raPUIUIqrcxCMxAZxdlKg1/img.png|alignCenter|data-origin-width="637" data-origin-height="655" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGLTsi%2FbtrgVRNsvZJ%2FraPUIUIqrcxCMxAZxdlKg1%2Fimg.png)
 
 **(Styleformer의 큰 장점인 빠른 속도와 적은 메모리 용량)**
 
-[##_Image|kage@bShZJN/btrgVNEeY1F/XTsYMC48Q28RV7pKJYBT40/img.png|alignCenter|data-origin-width="631" data-origin-height="178" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbShZJN%2FbtrgVNEeY1F%2FXTsYMC48Q28RV7pKJYBT40%2Fimg.png)
+
 
 ## **Conclusion**
 
