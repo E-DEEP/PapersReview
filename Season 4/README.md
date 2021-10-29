@@ -2,7 +2,7 @@
 
 ### 1. 논문 리스트업 (각자 2개씩, ~9/16 21:30)
     - 한지수
-        - Finetuned Language Models Are Zero-Shot Learners (Google Research, 2021.Sep, Language Modeling 분야) 
+        - One-shot Instance segmentation (Few-shot learning 분야)
         - Generalization Through Hand-Eye Coordination: An Action Space for Learning Spatially-Invariant Visuomotor Control (IROS2021, Robotics Vision 분야)
     - 이유정
         - Contrastive Clustering (2021 AAAI, Computer vision)
