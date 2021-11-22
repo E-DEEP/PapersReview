@@ -5,8 +5,8 @@
 |날짜|발표자|Paper|
 |------|---|---|
 |11/22|김연수<br>한지수|[BEIT: BERT Pre-Training of Image Transformers](https://arxiv.org/pdf/2106.08254.pdf)<br>[Zero-Shot Instance Segmentation](https://arxiv.org/pdf/2104.06601.pdf)|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|12/06|이주현<br>이유정|테스트3|
+|12/20|류정현<br>|테스트3|
 
 
 ## 일시 
